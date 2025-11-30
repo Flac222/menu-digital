@@ -1,0 +1,19 @@
+{
+    "name": "Pizzería Don Luigi",
+    "description": "Las mejores pizzas a la piedra.",
+    "categories": [
+        {
+            "name": "Pizzas",
+            "items": [
+                { "name": "Margarita", "price": "$1200", "description": "Tomate, mozzarella, albahaca." },
+                { "name": "Napolitana", "price": "$1400", "description": "Tomate, ajo, orégano." }
+            ]
+        },
+        {
+            "name": "Bebidas",
+            "items": [
+                { "name": "Cerveza", "price": "$800", "description": "Pinta artesanal." }
+            ]
+        }
+    ]
+}

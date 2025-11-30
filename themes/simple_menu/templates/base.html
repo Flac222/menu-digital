@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .dish { border-bottom: 1px solid #ccc; padding: 10px 0; }
+        .price { float: right; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

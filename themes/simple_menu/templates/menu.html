@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {# 1. Llamamos a la función Python para traer los datos #}
+    {% set restaurant = get_menu() %}
+
+    <header>
+        <h1>{{ restaurant.name }}</h1>
+        {% if restaurant.description %}
+            <p>{{ restaurant.description }}</p>
+        {% endif %}
+    </header>
+
+    {# 2. Iteramos sobre las categorías del JSON #}
+    {% for category in restaurant.categories %}
+        <section>
+            <h2>{{ category.name }}</h2>
+            
+            {% for dish in category["items"] %}
+                <div class="dish">
+                    <span class="price">{{ dish.price }}</span>
+                    <h3>{{ dish.name }}</h3>
+                    <p>{{ dish.description }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    {% endfor %}
+
+{% endblock %}
