@@ -1,0 +1,54 @@
+name: Deploy Hugo Site (Bash Version)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      # PASO LIGERO: Usamos 'jq' para procesar el JSON sin Python
+      - name: Generate Markdown from JSON
+        run: |
+          mkdir -p content
+          
+          # Iterar sobre cada archivo JSON en data/restaurantes
+          for json_file in data/restaurantes/*.json; do
+            
+            echo "Procesando $json_file..."
+            
+            # Usamos jq para extraer variables y limpiar los colores (\x -> #)
+            # El flag -r (raw) quita las comillas extra
+            jq -r '
+              .restaurantInfo | 
+              [
+                "---",
+                ("title: \"" + .nombre + "\""),
+                ("slug: \"" + .slug + "\""),
+                ("menuId: \"" + .id + "\""),
+                ("color_primario: \"" + (.color_primario | sub("\\\\x"; "#")) + "\""),
+                ("color_secundario: \"" + (.color_secundario | sub("\\\\x"; "#")) + "\""),
+                ("color_terciario: \"" + (.color_terciario | sub("\\\\x"; "#")) + "\""),
+                "---"
+              ] | join("\n")
+            ' "$json_file" > "content/$(basename "$json_file" .json).md"
+            
+          done
+          
+          echo "Generación completada."
+
+      - name: Build
+        run: hugo --minify

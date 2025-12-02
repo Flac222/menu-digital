@@ -1,0 +1,4 @@
+baseURL = "/"
+languageCode = "es"
+title = "Menú Digital"
+disableKinds = ["RSS", "sitemap", "taxonomy", "taxonomyTerm"]
