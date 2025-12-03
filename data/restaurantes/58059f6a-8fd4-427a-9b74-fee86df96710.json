@@ -15,5 +15,20 @@
     "logo": null,
     "slug": "pizzeria-lola-del-mar"
   },
-  "categories": []
+  "categories": [
+    {
+      "id": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+      "nombre": "Pizzas",
+      "orden": 0,
+      "productos": [
+        {
+          "id": "b2f110d7-5ec1-4b52-a6e6-1f5d84fae6d7",
+          "nombre": "Mozzarella",
+          "precio": 12000,
+          "descripcion": "Queso Mozzarella + Salsa de Tomates",
+          "orden": 0
+        }
+      ]
+    }
+  ]
 }
