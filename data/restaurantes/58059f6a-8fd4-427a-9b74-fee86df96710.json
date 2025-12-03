@@ -18,7 +18,7 @@
   "categories": [
     {
       "id": "297d9ae0-cd0d-4502-9551-4bacb072767f",
-      "nombre": "Pizzas",
+      "nombre": "Pizzas Chicas",
       "orden": 0,
       "productos": [
         {
@@ -27,6 +27,1343 @@
           "precio": 12000,
           "descripcion": "Queso Mozzarella + Salsa de Tomates",
           "orden": 0
+        },
+        {
+          "id": "51a39504-8a7e-43c0-991d-e98e714693ba",
+          "nombre": "Mozzarella con Ajo y Perejil",
+          "precio": 13000,
+          "descripcion": "Idem Mozzarella + Ajo y Perejil",
+          "orden": 1
+        },
+        {
+          "id": "a24e4d3b-0453-4f4d-9f0e-421d54b7b9e1",
+          "nombre": "Mozzarella con Anchoas",
+          "precio": 14000,
+          "descripcion": "Idem Mozzarella + Anchoas",
+          "orden": 2
+        },
+        {
+          "id": "7cf8c9ec-753f-4a15-86e8-aa83f53e9b7c",
+          "nombre": "Mozzarella con Morrones",
+          "precio": 14000,
+          "descripcion": "Idem Mozzarella + Morrones",
+          "orden": 3
+        },
+        {
+          "id": "3dfeb0de-4e7b-4dd1-91a2-cba5c0a046e6",
+          "nombre": "Fugazza",
+          "precio": 12000,
+          "descripcion": "Cebolla y Orégano",
+          "orden": 4
+        },
+        {
+          "id": "add19522-ef35-4910-af6f-1e5313aaa3d0",
+          "nombre": "Fugazzeta",
+          "precio": 13000,
+          "descripcion": "Mozzarella con Cebolla",
+          "orden": 5
+        },
+        {
+          "id": "6ab66865-2823-485d-816c-ffdabd42fb11",
+          "nombre": "Fugazzeta con Jamón",
+          "precio": 15000,
+          "descripcion": "Mozzarella, Cebolla y Jamón",
+          "orden": 6
+        },
+        {
+          "id": "2323493e-a775-49e3-a13a-eef1d66744b1",
+          "nombre": "Fugazzeta Americana",
+          "precio": 17000,
+          "descripcion": "Doble masa con Cebolla y Mozzarella",
+          "orden": 7
+        },
+        {
+          "id": "e81946a6-d7b0-4a55-aa7d-e675741fa591",
+          "nombre": "Fugazzeta Americana con Jamón",
+          "precio": 18500,
+          "descripcion": "IDem Americana + Jamón",
+          "orden": 8
+        },
+        {
+          "id": "04bfa0d5-3894-46fc-a3d2-e88d1f9565fc",
+          "nombre": "Margarita",
+          "precio": 15000,
+          "descripcion": "Mozzarella, Salsa de Tomates y Albahaca",
+          "orden": 9
+        },
+        {
+          "id": "bec84e25-77d7-405c-b066-7770057e7f0d",
+          "nombre": "Gitana",
+          "precio": 20000,
+          "descripcion": "Mozzarella, Jamón Crudo y Rúcula",
+          "orden": 10
+        },
+        {
+          "id": "fdf10669-765c-4006-bf3d-0c3cfbf9bd5a",
+          "nombre": "Napolitana",
+          "precio": 15000,
+          "descripcion": "Mozzarella c/ Tomate Nat., Ajo y Perejil",
+          "orden": 11
+        },
+        {
+          "id": "e2c7e7ef-c849-4171-b9ca-8ff01a9443a8",
+          "nombre": "Napolitana con Jamón",
+          "precio": 17000,
+          "descripcion": "Idem Napolitana + Jamón",
+          "orden": 12
+        },
+        {
+          "id": "d771470e-70a2-4aec-a013-cce78a961fe3",
+          "nombre": "Anchoas",
+          "precio": 13000,
+          "descripcion": "Salsa de Tomates, Anchoas y Aceitunas Negras",
+          "orden": 13
+        },
+        {
+          "id": "124a4857-1e53-4f06-a301-63c4208f6fe7",
+          "nombre": "Atún",
+          "precio": 16000,
+          "descripcion": "Salsa de Tomates, Mozzarella, Atún y Morrones",
+          "orden": 14
+        },
+        {
+          "id": "32146e37-a3bf-4934-af00-6607c2d33e5f",
+          "nombre": "Jamón",
+          "precio": 15000,
+          "descripcion": "Mozzarella, Jamón y Aceitunas",
+          "orden": 15
+        },
+        {
+          "id": "b549476d-d5c4-4aa9-80d7-19a8e1e0fb5c",
+          "nombre": "Jamón con Roquefort",
+          "precio": 18000,
+          "descripcion": "Idem Jamón + Queso Roquefort",
+          "orden": 16
+        },
+        {
+          "id": "82aa4014-c39e-4a10-8937-5f8b0cc4b3e2",
+          "nombre": "Roquefort",
+          "precio": 17000,
+          "descripcion": "Mozzarella + Queso Roquefort",
+          "orden": 17
+        },
+        {
+          "id": "91136bb1-d5a1-430c-8468-989db94e5bfd",
+          "nombre": "Jamón con Ananá",
+          "precio": 18000,
+          "descripcion": "Idem Jamón + Rodajas de Ananá",
+          "orden": 18
+        },
+        {
+          "id": "b27adf9b-9552-48d2-a75b-12da75b98e4a",
+          "nombre": "Especial",
+          "precio": 16000,
+          "descripcion": "Mozzarella con Jamón y Morrones",
+          "orden": 19
+        },
+        {
+          "id": "09da1fd5-4661-4e5c-a449-4c08893e2925",
+          "nombre": "Huevolín",
+          "precio": 15000,
+          "descripcion": "Mozzarella con Huevo duro rallado",
+          "orden": 20
+        },
+        {
+          "id": "8d1a1461-8a59-4f04-936a-0a6c9abde761",
+          "nombre": "Huevolín con Anchoas",
+          "precio": 17000,
+          "descripcion": "Idem Huevolín + Anchoas",
+          "orden": 21
+        },
+        {
+          "id": "ba431f57-5f9c-421f-9f07-99304b166177",
+          "nombre": "Cancha",
+          "precio": 12000,
+          "descripcion": "Salsa Picante",
+          "orden": 22
+        },
+        {
+          "id": "0678ad1a-d903-4de9-ad69-d1f4fdf6cf4f",
+          "nombre": "Manicomio",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Jamón, Huevo y Morrones",
+          "orden": 23
+        },
+        {
+          "id": "32385b82-4f58-4761-a987-81ffe207a1be",
+          "nombre": "Berenjon",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Jamón, Berenjenas y Morrones",
+          "orden": 24
+        },
+        {
+          "id": "37583f56-904f-4eda-ad40-1ccd3a993e7d",
+          "nombre": "Humita",
+          "precio": 16000,
+          "descripcion": "Mozzarella, Crema de Choclo y Salsa Blanca",
+          "orden": 25
+        },
+        {
+          "id": "8c16f69b-d93b-40d8-a33d-04d64edd0ae0",
+          "nombre": "Champignon",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Champiñones, Morrones y Condimentos",
+          "orden": 26
+        },
+        {
+          "id": "505bb960-fb57-4c3c-bab1-8e3afc381654",
+          "nombre": "Lola",
+          "precio": 20000,
+          "descripcion": "Mozzarella, Jamón, Palmitos con Salsa Golf, Huevo, Morrones y Rodajas de Tomates",
+          "orden": 27
+        },
+        {
+          "id": "116c9377-23cf-49f0-aef8-c76135d91fec",
+          "nombre": "Popeye",
+          "precio": 16000,
+          "descripcion": "Mozzarella, Salsa Blanca, Espinaca, Queso rallado y Morrones",
+          "orden": 28
+        },
+        {
+          "id": "c5b6938f-dc48-402c-ba56-1763543ff4ae",
+          "nombre": "Parmesano",
+          "precio": 16000,
+          "descripcion": "Mozzarella, Parmesano, Pimienta y Oliva",
+          "orden": 29
+        },
+        {
+          "id": "ad05d7fe-e881-4bd7-aca3-e58a722712d6",
+          "nombre": "Provolone",
+          "precio": 16000,
+          "descripcion": "Mozzarella, Provolone, Pimienta y Oliva",
+          "orden": 30
+        },
+        {
+          "id": "a1e2a279-d03c-4e84-8104-30d0fac78b60",
+          "nombre": "Primavera",
+          "precio": 17000,
+          "descripcion": "Mozzarella con Jamón, Huevo y Rodajas de Tomates",
+          "orden": 31
+        },
+        {
+          "id": "5df164f1-4daa-4a84-b885-9dd95b61b599",
+          "nombre": "Pizzaiola",
+          "precio": 12000,
+          "descripcion": "Salsa de Tomates, Ajo, Orégano y Oliva",
+          "orden": 32
+        },
+        {
+          "id": "7429ef30-bd12-4cc7-a9ad-81dc195e2c28",
+          "nombre": "Palmitos",
+          "precio": 20000,
+          "descripcion": "Mozzarella con Jamón, Palmitos y Salsa Golf",
+          "orden": 33
+        },
+        {
+          "id": "771d94b3-8573-457c-83f4-b601b72da01f",
+          "nombre": "Bahiana",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Jamón, Banana, Caramelo y Canela",
+          "orden": 34
+        }
+      ]
+    },
+    {
+      "id": "b0fb3e94-65d5-4d7d-bd36-d70ab841a821",
+      "nombre": "Pizzas Grandes",
+      "orden": 1,
+      "productos": [
+        {
+          "id": "1232cb5b-c1bf-4b27-9e67-8c514d715703",
+          "nombre": "Mozzarella",
+          "precio": 14000,
+          "descripcion": "Queso Mozzarella + Salsa de Tomates",
+          "orden": 0
+        },
+        {
+          "id": "f49d990e-f6d4-4944-8d1d-d36074f6d5e1",
+          "nombre": "Mozzarella con Ajo y Perejil",
+          "precio": 16000,
+          "descripcion": "Idem Mozzarella + Ajo y Perejil",
+          "orden": 1
+        },
+        {
+          "id": "fb388a9b-afa7-466b-903d-630226fa4668",
+          "nombre": "Mozzarella con Anchoas",
+          "precio": 16000,
+          "descripcion": "Idem Mozzarella + Anchoas",
+          "orden": 2
+        },
+        {
+          "id": "4b52121b-49c7-46eb-bcd8-f9fb80efbe4e",
+          "nombre": "Mozzarella con Morrones",
+          "precio": 16000,
+          "descripcion": "Idem Mozzarella + Morrones",
+          "orden": 3
+        },
+        {
+          "id": "f451e15c-d6b1-46d7-b8e5-0df5c65f4188",
+          "nombre": "Fugazza",
+          "precio": 14000,
+          "descripcion": "Cebolla y Orégano",
+          "orden": 4
+        },
+        {
+          "id": "51ccf92e-97e5-468f-94e9-837eac6c84ae",
+          "nombre": "Fugazzeta",
+          "precio": 15000,
+          "descripcion": "Mozzarella con Cebolla",
+          "orden": 5
+        },
+        {
+          "id": "ee72a90f-adb7-455a-a771-45dd1f36e69d",
+          "nombre": "Fugazzeta con Jamón",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Cebolla y Jamón",
+          "orden": 6
+        },
+        {
+          "id": "79050d1e-82dc-403d-be4a-6053e7c8f890",
+          "nombre": "Fugazzeta Americana",
+          "precio": 19000,
+          "descripcion": "Doble masa con Cebolla y Mozzarella",
+          "orden": 7
+        },
+        {
+          "id": "7b0966a3-ade4-469a-8dd5-96a585cbf58e",
+          "nombre": "Fugazzeta Americana con Jamón",
+          "precio": 20500,
+          "descripcion": "IDem Americana + Jamón",
+          "orden": 8
+        },
+        {
+          "id": "b81881a3-9ef2-4041-aec8-d0e64236f291",
+          "nombre": "Margarita",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Salsa de Tomates y Albahaca",
+          "orden": 9
+        },
+        {
+          "id": "8a82e02b-f528-417d-8230-993e2fd8a543",
+          "nombre": "Gitana",
+          "precio": 22000,
+          "descripcion": "Mozzarella, Jamón Crudo y Rúcula",
+          "orden": 10
+        },
+        {
+          "id": "e95188f5-a66a-4549-b64d-3ea19e248cf2",
+          "nombre": "Napolitana",
+          "precio": 17000,
+          "descripcion": "Mozzarella c/ Tomate Nat., Ajo y Perejil",
+          "orden": 11
+        },
+        {
+          "id": "ebbd9128-eb08-4963-af43-4dd6c2d91987",
+          "nombre": "Napolitana con Jamón",
+          "precio": 19000,
+          "descripcion": "Idem Napolitana + Jamón",
+          "orden": 12
+        },
+        {
+          "id": "da8ba49b-eaee-44a0-8a77-80b2da8cf546",
+          "nombre": "Anchoas",
+          "precio": 15000,
+          "descripcion": "Salsa de Tomates, Anchoas y Aceitunas Negras",
+          "orden": 13
+        },
+        {
+          "id": "4284ef31-b19b-401b-a5b5-674e60869a24",
+          "nombre": "Atún",
+          "precio": 18000,
+          "descripcion": "Salsa de Tomates, Mozzarella, Atún y Morrones",
+          "orden": 14
+        },
+        {
+          "id": "65192951-de79-4b8d-9702-74efed881117",
+          "nombre": "Jamón",
+          "precio": 17000,
+          "descripcion": "Mozzarella, Jamón y Aceitunas",
+          "orden": 15
+        },
+        {
+          "id": "29fdf87b-67ea-4da3-b4ba-195e6f632e4b",
+          "nombre": "Jamón con Roquefort",
+          "precio": 20000,
+          "descripcion": "Idem Jamón + Queso Roquefort",
+          "orden": 16
+        },
+        {
+          "id": "085743ec-9f71-4ffc-827b-dc807be9805a",
+          "nombre": "Roquefort",
+          "precio": 19000,
+          "descripcion": "Mozzarella + Queso Roquefort",
+          "orden": 17
+        },
+        {
+          "id": "e16e4533-e80e-4e6e-a62a-225be6caa4d6",
+          "nombre": "Jamón con Ananá",
+          "precio": 20000,
+          "descripcion": "Idem Jamón + Rodajas de Ananá",
+          "orden": 18
+        },
+        {
+          "id": "47b3582c-a70a-4744-ab39-907e0d8c855e",
+          "nombre": "Especial",
+          "precio": 18000,
+          "descripcion": "Mozzarella con Jamón y Morrones",
+          "orden": 19
+        },
+        {
+          "id": "2d091869-e305-4fe0-8749-9aeaaf441d1e",
+          "nombre": "Huevolín",
+          "precio": 17000,
+          "descripcion": "Mozzarella con Huevo duro rallado",
+          "orden": 20
+        },
+        {
+          "id": "00ce1320-2a71-4bf8-8107-2aeb202f84eb",
+          "nombre": "Huevolín con Anchoas",
+          "precio": 19000,
+          "descripcion": "Idem Huevolín + Anchoas",
+          "orden": 21
+        },
+        {
+          "id": "548df558-330c-497b-b81c-3f46aeb5af67",
+          "nombre": "Cancha",
+          "precio": 14000,
+          "descripcion": "Salsa Picante",
+          "orden": 22
+        },
+        {
+          "id": "845b5ef5-2a6a-4652-b196-a6ba77dd8a34",
+          "nombre": "Manicomio",
+          "precio": 19000,
+          "descripcion": "Mozzarella, Jamón, Huevo y Morrones",
+          "orden": 23
+        },
+        {
+          "id": "c2a8c538-3945-4243-949f-399d33d58cb5",
+          "nombre": "Berenjon",
+          "precio": 19000,
+          "descripcion": "Mozzarella, Jamón, Berenjenas y Morrones",
+          "orden": 24
+        },
+        {
+          "id": "d193f807-383c-42db-a8d6-82510c166aad",
+          "nombre": "Humita",
+          "precio": 18000,
+          "descripcion": "Mozzarella, Crema de Choclo y Salsa Blanca",
+          "orden": 25
+        },
+        {
+          "id": "ff5cde0a-5591-4703-958a-0ec6f6869bee",
+          "nombre": "Champignon",
+          "precio": 19000,
+          "descripcion": "Mozzarella, Champiñones, Morrones y Condimentos",
+          "orden": 26
+        },
+        {
+          "id": "3f11ca22-0499-4cd3-a69c-673a90a997c9",
+          "nombre": "Lola",
+          "precio": 23000,
+          "descripcion": "Mozzarella, Jamón, Palmitos con Salsa Golf, Huevo, Morrones y Rodajas de Tomates",
+          "orden": 27
+        },
+        {
+          "id": "9312c6e3-1ae0-4842-894c-5243b1c319d7",
+          "nombre": "Popeye",
+          "precio": 18000,
+          "descripcion": "Mozzarella, Salsa Blanca, Espinaca, Queso rallado y Morrones",
+          "orden": 28
+        },
+        {
+          "id": "757d306a-6d63-433a-aeb5-9f37d293901b",
+          "nombre": "Parmesano",
+          "precio": 18000,
+          "descripcion": "Mozzarella, Parmesano, Pimienta y Oliva",
+          "orden": 29
+        },
+        {
+          "id": "b4aa04ea-47be-4f64-aca1-374ce84f133f",
+          "nombre": "Provolone",
+          "precio": 18000,
+          "descripcion": "Mozzarella, Provolone, Pimienta y Oliva",
+          "orden": 30
+        },
+        {
+          "id": "7ac15cb0-6819-46a8-b96a-43a508fd0858",
+          "nombre": "Primavera",
+          "precio": 19000,
+          "descripcion": "Mozzarella con Jamón, Huevo y Rodajas de Tomates",
+          "orden": 31
+        },
+        {
+          "id": "308ca115-f591-408c-a732-1b01cb358fa3",
+          "nombre": "Pizzaiola",
+          "precio": 14000,
+          "descripcion": "Salsa de Tomates, Ajo, Orégano y Oliva",
+          "orden": 32
+        },
+        {
+          "id": "d1ddefcc-8fd4-44f6-aa03-deb3142bf50d",
+          "nombre": "Palmitos",
+          "precio": 22000,
+          "descripcion": "Mozzarella con Jamón, Palmitos y Salsa Golf",
+          "orden": 33
+        },
+        {
+          "id": "544ddfd4-bd7b-420a-8612-f3f9b7807fef",
+          "nombre": "Bahiana",
+          "precio": 19000,
+          "descripcion": "Mozzarella, Jamón, Banana, Caramelo y Canela",
+          "orden": 34
+        }
+      ]
+    },
+    {
+      "id": "1a08cf43-3228-4bdb-a5b8-b439d263677d",
+      "nombre": "Porciones",
+      "orden": 2,
+      "productos": [
+        {
+          "id": "f17b82ae-916f-4ae9-aac2-005f1851233c",
+          "nombre": "Pizza Al Taglio (Rellena)",
+          "precio": 6000,
+          "descripcion": "Hasta 4 Ingredientes",
+          "orden": 0
+        },
+        {
+          "id": "65aeadc7-6fab-4aca-b86d-08e346260b10",
+          "nombre": "Fainá",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "f0129ba5-8d03-4c39-b107-12f083e4683e",
+          "nombre": "Fugafaina",
+          "precio": 2500,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "4779cd6d-f38b-4708-8f7c-f62dfc1d5e78",
+          "nombre": "Fainanapo",
+          "precio": 2500,
+          "descripcion": "",
+          "orden": 3
+        }
+      ]
+    },
+    {
+      "id": "02c24ff2-427c-4563-88fa-f3d51d872f31",
+      "nombre": "Calzones Chicos",
+      "orden": 3,
+      "productos": [
+        {
+          "id": "58d46287-6395-4a54-b93e-aecc289fbb94",
+          "nombre": "Lola",
+          "precio": 22000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Huevo, Palmitos y Salsa Golf",
+          "orden": 0
+        },
+        {
+          "id": "6d8d118b-06d7-4043-a2f4-1901b39819ff",
+          "nombre": "Napolitano",
+          "precio": 21000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Ajo y Perejil",
+          "orden": 1
+        },
+        {
+          "id": "01bda4f1-e15e-4a1c-a6fd-973d8ac3bccd",
+          "nombre": "Giusepino",
+          "precio": 21000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Queso Provolone y Berenjenas",
+          "orden": 2
+        }
+      ]
+    },
+    {
+      "id": "6372c4d4-50f8-459c-b95a-efb49544ae6b",
+      "nombre": "Calzones Grandes",
+      "orden": 4,
+      "productos": [
+        {
+          "id": "5a14dbf5-84a9-4483-b05e-74a1d44ef842",
+          "nombre": "Lola",
+          "precio": 25000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Huevo, Palmitos y Salsa Golf",
+          "orden": 0
+        },
+        {
+          "id": "16c5cefc-fe57-4bb9-8e2b-9b7e49df31ab",
+          "nombre": "Napolitano",
+          "precio": 24000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Ajo y Perejil",
+          "orden": 1
+        },
+        {
+          "id": "a144b2d3-58d5-43fa-80b1-c25bc1187b24",
+          "nombre": "Giusepino",
+          "precio": 24000,
+          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Queso Provolone y Berenjenas",
+          "orden": 2
+        }
+      ]
+    },
+    {
+      "id": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b",
+      "nombre": "Empanadas",
+      "orden": 5,
+      "productos": [
+        {
+          "id": "2b1a53ff-0629-4f4d-a7a3-2a338ba2a5e4",
+          "nombre": "Carne",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "21fe7708-b0ff-45c0-bfcb-f47576c91e1a",
+          "nombre": "Pollo",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "c8e8030b-a563-4bc5-86f0-b1b3748fd0ac",
+          "nombre": "Humita",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "2e68883e-0508-4fae-88dc-27484ccc788b",
+          "nombre": "Jamón y Queso",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "582c2d78-367f-4a8c-8ecf-d3ebda6ab5eb",
+          "nombre": "Atún",
+          "precio": 2000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "b2404185-c90a-4642-9175-0d0b27b6c9bb",
+          "nombre": "Queso y Cebolla",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "22a0e4e4-52c6-4745-8638-52d305d47491",
+          "nombre": "Roquefort",
+          "precio": 2000,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "e7093d87-ec2b-4a84-9396-c5c5918167a6",
+          "nombre": "Caprese",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "ab926936-4b3f-4729-b360-434f25a9591f",
+          "nombre": "Verdura",
+          "precio": 1800,
+          "descripcion": "",
+          "orden": 8
+        },
+        {
+          "id": "be536b85-6e46-4fdf-b377-c7f0649ed63e",
+          "nombre": "Calabresa",
+          "precio": 2000,
+          "descripcion": "",
+          "orden": 9
+        }
+      ]
+    },
+    {
+      "id": "3871c44e-8e96-404c-a32c-c4c464ae9083",
+      "nombre": "Empanadas Especiales",
+      "orden": 6,
+      "productos": [
+        {
+          "id": "18474c0d-0b2e-416e-91d2-7cfe7ac29144",
+          "nombre": "Ananá",
+          "precio": 3500,
+          "descripcion": "Mozzarella, Jamón, Ananá y Caramelo",
+          "orden": 0
+        },
+        {
+          "id": "2fce9d9b-4979-444c-9b77-1bd682a39a21",
+          "nombre": "Banana",
+          "precio": 3500,
+          "descripcion": "Mozzarella, Jamón, Banana y Caramelo",
+          "orden": 1
+        },
+        {
+          "id": "c9c665fd-40b3-43a7-a846-8088b373b5ec",
+          "nombre": "Ciruela",
+          "precio": 3500,
+          "descripcion": "Mozzarella, Jamón, Ciruela y Caramelo",
+          "orden": 2
+        },
+        {
+          "id": "a32d4ad4-d852-4a77-8d86-82e66ef77690",
+          "nombre": "Ciruela y Panceta",
+          "precio": 3500,
+          "descripcion": "Mozzarella, Jamón, Ciruela, Caramelo y Panceta",
+          "orden": 3
+        }
+      ]
+    },
+    {
+      "id": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8",
+      "nombre": "Minutas",
+      "orden": 7,
+      "productos": [
+        {
+          "id": "bddccb8b-ce56-4da1-81e5-636e246279e6",
+          "nombre": "Milanesa de Ternera o Pollo",
+          "precio": 12000,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "63a9f4fa-f903-4dd7-af65-8020f227b77f",
+          "nombre": "Suprema o Milanesa Napolitana",
+          "precio": 13500,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "ccae9b13-cfe6-4a43-8db0-e452556dc99d",
+          "nombre": "Papas Fritas",
+          "precio": 7000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "60e878df-8c12-4445-9db3-5ccea6834f95",
+          "nombre": "Puré de Papas",
+          "precio": 7000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "b3c327fa-aacc-43d8-8abb-f87dcaba9120",
+          "nombre": "Omellette de Jamón y Queso",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "e63ee03e-7792-4613-936c-1f5e6f12cf2c",
+          "nombre": "Omellette de Pollo y Champiñones",
+          "precio": 13000,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "e11c7232-4c49-49fc-918b-ad3f91a9f002",
+          "nombre": "Tortilla de Papas y Cebolla",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "a50b815d-81db-4287-8dd0-784c5ac3c0be",
+          "nombre": "Tortilla a La Española",
+          "precio": 13000,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "c31f6a65-2953-4bed-99ac-c960c46d934b",
+          "nombre": "Tortilla de Verdura",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 8
+        }
+      ]
+    },
+    {
+      "id": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+      "nombre": "Pescados",
+      "orden": 8,
+      "productos": [
+        {
+          "id": "62d57bc7-2861-40cc-b001-3a6eecb177ec",
+          "nombre": "Rabas",
+          "precio": 18000,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "c2b60742-1270-4b8e-b172-9218939ece9a",
+          "nombre": "Cornalitos",
+          "precio": 12000,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "885c5521-ba6c-49f7-850c-59f4df75ed58",
+          "nombre": "Rabas a La Provenzal",
+          "precio": 20000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "5249fdf5-86de-4ced-88f4-b55eadf7d597",
+          "nombre": "Filet de Merluza a la plancha",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "4ae003b5-f046-4b8c-88b2-28f054a34f9e",
+          "nombre": "Filet de Merluza a La Romana",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "21e2cc09-942d-4b57-b444-9c5ab4714a07",
+          "nombre": "Filet de Merluza al Roquefort",
+          "precio": 12000,
+          "descripcion": "",
+          "orden": 5
+        }
+      ]
+    },
+    {
+      "id": "14ec1af0-0e3d-4661-9c9c-979324806e24",
+      "nombre": "Ensaladas",
+      "orden": 9,
+      "productos": [
+        {
+          "id": "a41a058d-dc7c-49db-a6a8-b76ba9622f03",
+          "nombre": "Tres verduras a elección",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "6ee018ae-1b1f-4b0c-976b-625848be2165",
+          "nombre": "Tres verduras y Huevo",
+          "precio": 12000,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "0d649ea0-700a-43b7-96c3-567cd3f35e6d",
+          "nombre": "Capresse",
+          "precio": 13000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "c99d4366-c4c9-4880-9b4d-eb13194cf5d2",
+          "nombre": "Rúcula con Parmesano",
+          "precio": 14000,
+          "descripcion": "",
+          "orden": 3
+        }
+      ]
+    },
+    {
+      "id": "725e175c-06d9-4028-91a8-4cdf41760371",
+      "nombre": "Pastas",
+      "orden": 10,
+      "productos": [
+        {
+          "id": "5cc6a579-6257-4169-b07c-fd521c6e6dbc",
+          "nombre": "Tallarines",
+          "precio": 9500,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "86901afd-3f42-4840-8085-4a9c9f445936",
+          "nombre": "Ñoquis de Papa",
+          "precio": 9500,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "08e6ee91-fa5c-40cd-9447-e328e2fcb088",
+          "nombre": "Ravioles de Verdura",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "af1ed3b8-0545-42c9-9d5e-e4d80a82c770",
+          "nombre": "Ravioles de Ricota",
+          "precio": 10000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "0e96fe41-7299-4e68-b5f4-31e8b1e1f58a",
+          "nombre": "Con Salsa de Tomates al Natural",
+          "precio": 2500,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "e31e80dd-4f55-420c-b363-722e7c18e4dd",
+          "nombre": "Con Salsa de Albahaca y Nuez",
+          "precio": 2600,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "0f7ed8e1-aa3c-4a33-b7f0-bb6498dccd7b",
+          "nombre": "A la Manteca",
+          "precio": 2300,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "8f68f231-ddb7-48b5-97a8-6c5513b1a509",
+          "nombre": "Con Salsa Boloñesa",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "f9ef468e-23ef-4318-bcc5-c291fcf808ae",
+          "nombre": "Penne a la Putanesca",
+          "precio": 12000,
+          "descripcion": "Mostacholes con Salsa Picante, Anchoas y Olivas Negras",
+          "orden": 8
+        },
+        {
+          "id": "97c4f965-b32f-4378-becc-1f983261cc24",
+          "nombre": "Sorrentinos de Ricota, Jamón y Nuez",
+          "precio": 13500,
+          "descripcion": "Con Salsa de Tomates al Natural",
+          "orden": 9
+        },
+        {
+          "id": "f68f2508-2afe-4ee9-8e4a-af2571601f9f",
+          "nombre": "Crema",
+          "precio": 3000,
+          "descripcion": "",
+          "orden": 10
+        },
+        {
+          "id": "ff4034b3-42e7-4704-9167-9cf80df14fc0",
+          "nombre": "Crema al Roquefort",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 11
+        },
+        {
+          "id": "6ce93240-9764-4d07-b98c-e8730ce502b9",
+          "nombre": "Crema de Quesos",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 12
+        },
+        {
+          "id": "694199f7-00d8-4fb5-b0a6-dd9d47cf36e9",
+          "nombre": "Rosa",
+          "precio": 3000,
+          "descripcion": "",
+          "orden": 13
+        },
+        {
+          "id": "5ddc214f-9447-4881-88be-1e41da551ce5",
+          "nombre": "Scroffa",
+          "precio": 3500,
+          "descripcion": "Salsa de Tomates, Crema y Provolone",
+          "orden": 14
+        },
+        {
+          "id": "22a0c355-68e3-4f11-bfc0-d225add15c63",
+          "nombre": "Popeye",
+          "precio": 3500,
+          "descripcion": "Crema, Espinaca yProvolone",
+          "orden": 15
+        },
+        {
+          "id": "305f1442-5380-456b-8656-e9b522154bb1",
+          "nombre": "Parissienne",
+          "precio": 4000,
+          "descripcion": "Salsa Blanca, Champiñones, Pollo y Jamón",
+          "orden": 16
+        },
+        {
+          "id": "2a78f22a-821b-4b42-86d7-bbdd5e8ac4e5",
+          "nombre": "Lola",
+          "precio": 5000,
+          "descripcion": "Salsa de Tomates, Crema, Champiñones, Jamón y Nueces",
+          "orden": 17
+        }
+      ]
+    },
+    {
+      "id": "7677d28c-4c1c-4fb6-89d7-1ab6fe350593",
+      "nombre": "Lomos",
+      "orden": 11,
+      "productos": [
+        {
+          "id": "bada4491-15a4-4ef9-bc9e-4a56afeca1a3",
+          "nombre": "Simple en Sándwich",
+          "precio": 14000,
+          "descripcion": "Lechuga, Tomate, Huevo, Mozzarella, Jamón y Aceitunas",
+          "orden": 0
+        },
+        {
+          "id": "0956481c-6f91-4059-b6e7-0920d88e4abc",
+          "nombre": "Canadiense",
+          "precio": 17000,
+          "descripcion": "Idem Simple + Palmitos, Morrón, Panceta y Huevo Frito",
+          "orden": 1
+        },
+        {
+          "id": "ca542cc0-9902-4900-9b54-d6e619a3542d",
+          "nombre": "Lola al Plato",
+          "precio": 19000,
+          "descripcion": "Ensalada Mixta, Ensalada Rusa, Papas Fritas, Jamón, Mozzarella, Huevo Frito, Panceta, Palmitos, Morrones y Aceitunas",
+          "orden": 2
+        }
+      ]
+    },
+    {
+      "id": "96cb804d-7831-42a1-8309-cd3cf3375fcd",
+      "nombre": "Hamburguesas",
+      "orden": 12,
+      "productos": [
+        {
+          "id": "c198c75a-c488-4c1b-b3b6-437c70cc88fb",
+          "nombre": "Sola",
+          "precio": 8000,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "a612b6f5-9a0d-4435-a09a-0198eec43488",
+          "nombre": "Simple",
+          "precio": 10000,
+          "descripcion": "Lechuga, Tomate, Mozzarella, Jamón y Huevo",
+          "orden": 1
+        },
+        {
+          "id": "077f4e38-74a5-4b21-880c-46447fba6b26",
+          "nombre": "Completa",
+          "precio": 13000,
+          "descripcion": "Idem Simple + Palmitos, Morrones, Panceta, Huevo Frito y Cebolla",
+          "orden": 2
+        }
+      ]
+    },
+    {
+      "id": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+      "nombre": "Postres",
+      "orden": 13,
+      "productos": [
+        {
+          "id": "821959df-11a5-478e-a393-71e078f0e600",
+          "nombre": "Flan Casero",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "bac047b2-8873-40f3-aa5e-305508882762",
+          "nombre": "Ensalada de Frutas",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "4af851f2-0898-426a-98fd-89703e552862",
+          "nombre": "Frutillas con Azúcar y Jugo de Naranjas",
+          "precio": 6000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "38469dea-ee45-4f3d-bb3a-0dde483aad0f",
+          "nombre": "Helados Varios Gustos",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "0e95df77-29a5-422e-87eb-44d37f6fdd55",
+          "nombre": "Almendrado",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "753083c2-68e7-43bd-9c14-315102ac372b",
+          "nombre": "Bombón Suizo",
+          "precio": 6000,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "913cdbda-0c90-4abf-afcb-6b926ee08f3c",
+          "nombre": "Don Pedro",
+          "precio": 9000,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "e872fe5c-6510-4641-9857-e6763d359594",
+          "nombre": "Copa Lola",
+          "precio": 12000,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "0eb7ca67-31c7-4959-87d6-7d807ec530af",
+          "nombre": "Recargos: Crema, Dulce de Leche o Chocolate",
+          "precio": 3000,
+          "descripcion": "",
+          "orden": 8
+        }
+      ]
+    },
+    {
+      "id": "4215ef23-5150-4881-9eb1-d24a975769e8",
+      "nombre": "Cafetería",
+      "orden": 14,
+      "productos": [
+        {
+          "id": "fb07a2e6-4e22-4d72-b491-435375bbc6bd",
+          "nombre": "Té",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "88888d26-d20e-4f1f-9c4c-16a311a72ede",
+          "nombre": "Té Digestivo",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "f0a0257b-fb48-4f72-a344-4a8973a7b099",
+          "nombre": "Café, Lágrima o Cortado",
+          "precio": 3000,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "53c00a65-11aa-4eaf-91a1-0268a1115307",
+          "nombre": "Americano",
+          "precio": 4000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "0aaf014d-0eea-47d8-851a-39f72cdff475",
+          "nombre": "Americano con Crema",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "8a7ca92e-7b4e-46ca-b2be-001ba857ac8f",
+          "nombre": "Café con Leche",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "ebda4699-412b-41a8-a52d-5383f92ac892",
+          "nombre": "Capuchino",
+          "precio": 5000,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "3b342b8e-46ac-49ac-bfb5-4ca56df0653d",
+          "nombre": "Submarino",
+          "precio": 6000,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "faf650c1-6647-45e4-a310-70600d6d89b4",
+          "nombre": "Café Irlandés",
+          "precio": 7500,
+          "descripcion": "Café, Whisky, Crema y Canela",
+          "orden": 8
+        },
+        {
+          "id": "d909e46d-f8e2-4937-9e03-7b0006f64f15",
+          "nombre": "Calipso",
+          "precio": 7500,
+          "descripcion": "Café, Tía María, Crema y Canela",
+          "orden": 9
+        },
+        {
+          "id": "9601d263-f8d3-4f96-97f4-e8f2c9ff2978",
+          "nombre": "Café Lolita",
+          "precio": 9000,
+          "descripcion": "Café, Crema, Dulce de Leche, Tía María y Chocolate Rallado",
+          "orden": 10
+        },
+        {
+          "id": "230b968f-2a38-428f-a8e2-16f08c5e8735",
+          "nombre": "Tostado de Jamón y Queso",
+          "precio": 8000,
+          "descripcion": "",
+          "orden": 11
+        },
+        {
+          "id": "1ec516be-49eb-4665-a127-9ae920ec04f3",
+          "nombre": "Sándwich Primavera",
+          "precio": 9000,
+          "descripcion": "Jamón, Queso, Lechuga, Tomate y Huevo",
+          "orden": 12
+        },
+        {
+          "id": "bbf6c6cc-d263-45b8-bd37-78cea4db6ffc",
+          "nombre": "Sándwich Olímpico",
+          "precio": 10000,
+          "descripcion": "Jamón, Queso, Lechuga, Tomate, Huevo, Palmitos, Morrón y Aceitunas",
+          "orden": 13
+        }
+      ]
+    },
+    {
+      "id": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+      "nombre": "Bebidas Sin Alcohol",
+      "orden": 15,
+      "productos": [
+        {
+          "id": "619c453d-603f-4679-884d-d8b681bf7bd6",
+          "nombre": "Gaseosas",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "d16e9f9e-369f-4254-b007-996955d14600",
+          "nombre": "Agua Mineral",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "5b1370fb-6207-44a2-8e13-a75ebf9529c2",
+          "nombre": "Agua Saborizada",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "dbd5a8c2-ea06-4366-b92d-188c7c6c9aad",
+          "nombre": "Limonada",
+          "precio": 9500,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "d6886358-8109-474b-baf9-6dd31f21a811",
+          "nombre": "Exprimido de Naranjas",
+          "precio": 6000,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "b8afd3a0-caa1-4ba3-8ea3-4311f46fe9de",
+          "nombre": "Licuados con Agua",
+          "precio": 6000,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "f6c36572-8ad1-4d4c-83e0-90a050054a20",
+          "nombre": "Licuados con Leche",
+          "precio": 7000,
+          "descripcion": "",
+          "orden": 6
+        }
+      ]
+    },
+    {
+      "id": "bb276480-5a10-487c-968f-cead4657dd15",
+      "nombre": "Cervezas",
+      "orden": 16,
+      "productos": [
+        {
+          "id": "c6e64a4e-33a0-42a0-9106-36a51b100520",
+          "nombre": "Brahma lata",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 0
+        },
+        {
+          "id": "cb1bca63-279b-460f-a26c-7bc661a35d18",
+          "nombre": "Brahma litro",
+          "precio": 7000,
+          "descripcion": "",
+          "orden": 1
+        },
+        {
+          "id": "3d6e89df-f5ce-43bf-8c51-5113b3d777d4",
+          "nombre": "Stella Artois lata",
+          "precio": 3800,
+          "descripcion": "",
+          "orden": 2
+        },
+        {
+          "id": "c151f074-ced8-4531-aeed-1a65b45d6b23",
+          "nombre": "Stella Artois litro",
+          "precio": 8000,
+          "descripcion": "",
+          "orden": 3
+        },
+        {
+          "id": "1fdcac7f-a04d-4a5b-847c-54d1a55c8c2b",
+          "nombre": "Quilmes lata",
+          "precio": 3500,
+          "descripcion": "",
+          "orden": 4
+        },
+        {
+          "id": "a9d47ca5-5939-4686-9241-94e9b23daeea",
+          "nombre": "Quilmes litro",
+          "precio": 7000,
+          "descripcion": "",
+          "orden": 5
+        },
+        {
+          "id": "500091be-876f-413e-8473-6102a1ccd713",
+          "nombre": "Stella Artois S/A lata",
+          "precio": 3800,
+          "descripcion": "",
+          "orden": 6
+        },
+        {
+          "id": "e4ffcae3-92e5-4849-a894-261246ab4fd6",
+          "nombre": "Stella Artois Noir lata",
+          "precio": 3800,
+          "descripcion": "",
+          "orden": 7
+        },
+        {
+          "id": "7bb54204-23be-420f-93de-a7ee21a14f72",
+          "nombre": "Stella Artois Noir litro",
+          "precio": 8000,
+          "descripcion": "",
+          "orden": 8
         }
       ]
     }
