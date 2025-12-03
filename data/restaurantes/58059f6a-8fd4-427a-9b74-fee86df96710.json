@@ -1,0 +1,19 @@
+{
+  "restaurantInfo": {
+    "id": "58059f6a-8fd4-427a-9b74-fee86df96710",
+    "nombre": "Lola del mar",
+    "descripcion": "Pizzería",
+    "direccion": "Avenida 3 y Paseo 129, Villa Gesell 7165",
+    "color_primario": "\\xfb137b",
+    "color_secundario": "\\xdeb816",
+    "color_terciario": "\\xd42776",
+    "instagram": "https://www.instagram.com/loladelmarvillagesell",
+    "facebook": null,
+    "telefono": "02255 46-4863",
+    "maps": "https://maps.app.goo.gl/syVAcaqA1MZsg7Qb9",
+    "horarios": "11:00hs a 15:00hs\n19:00hs a 00:00hs",
+    "logo": null,
+    "slug": "pizzeria-lola-del-mar"
+  },
+  "categories": []
+}
