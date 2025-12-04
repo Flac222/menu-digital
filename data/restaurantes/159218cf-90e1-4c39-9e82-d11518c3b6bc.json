@@ -1,9 +1,9 @@
 {
   "restaurantInfo": {
     "id": "159218cf-90e1-4c39-9e82-d11518c3b6bc",
-    "nombre": "Mi restaurante",
+    "nombre": "Mi restaurante 2",
     "descripcion": "Este es un restaurante de prueba",
-    "direccion": "av. 3 entre 109 y 110",
+    "direccion": "av. 3 entre 109 y 111",
     "color_primario": "\\x1e2f6f",
     "color_secundario": "\\xfaf3e5",
     "color_terciario": "\\x333366",
@@ -19,18 +19,19 @@
     {
       "id": "30ace0aa-810a-4338-b92b-12edf26c41ef",
       "nombre": "Empanadas",
+      "variantes": null,
       "orden": 0,
       "productos": [
         {
-          "id": "acd28ae2-60e3-4632-9895-e240ddcb1e89",
-          "nombre": "Jamon y queso",
+          "id": "aeffce2e-9107-4006-9c70-684f9b9cb5fb",
+          "nombre": "Carne",
           "precio": 1500.15,
           "descripcion": null,
           "orden": 0
         },
         {
-          "id": "aeffce2e-9107-4006-9c70-684f9b9cb5fb",
-          "nombre": "Carne",
+          "id": "acd28ae2-60e3-4632-9895-e240ddcb1e89",
+          "nombre": "Jamon y queso",
           "precio": 1500,
           "descripcion": null,
           "orden": 1
@@ -40,28 +41,36 @@
     {
       "id": "d647e568-435b-4ad4-8e96-e0491973fe97",
       "nombre": "Pizzas",
+      "variantes": [
+        "Chica",
+        "Grande"
+      ],
       "orden": 1,
       "productos": [
         {
           "id": "9ba50dcc-b34c-42f9-b809-7bfed6876c08",
           "nombre": "Calabresa",
-          "precio": 19000,
+          "precio": {
+            "Chica": 19000,
+            "Grande": 21000
+          },
           "descripcion": "Es una pizza con calabresa arriba",
           "orden": 0
-        },
-        {
-          "id": "b4571485-9672-47a5-82c7-a572a8cbbf96",
-          "nombre": "Mozzarella",
-          "precio": 17000,
-          "descripcion": null,
-          "orden": 1
         }
       ]
     },
     {
+      "id": "6ff40ccd-a0d7-4980-b7af-e401cb764db2",
+      "nombre": "Minutas",
+      "variantes": null,
+      "orden": 2,
+      "productos": []
+    },
+    {
       "id": "945d4045-62bb-4c38-9ca8-5d2866d56be7",
       "nombre": "Porciones",
-      "orden": 2,
+      "variantes": null,
+      "orden": 3,
       "productos": []
     }
   ]
