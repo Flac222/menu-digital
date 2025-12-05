@@ -4,6 +4,8 @@
     "nombre": "Mi restaurante 2",
     "descripcion": "Este es un restaurante de prueba",
     "direccion": "av. 3 entre 109 y 111",
+    "created_at": "2025-11-28T21:36:48.996332+00:00",
+    "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
     "color_primario": "\\x1e2f6f",
     "color_secundario": "\\xfaf3e5",
     "color_terciario": "\\x333366",
@@ -19,58 +21,64 @@
     {
       "id": "30ace0aa-810a-4338-b92b-12edf26c41ef",
       "nombre": "Empanadas",
-      "variantes": null,
+      "created_at": "2025-12-01T20:32:36.45631+00:00",
+      "fk_restaurante": "159218cf-90e1-4c39-9e82-d11518c3b6bc",
+      "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
       "orden": 0,
+      "updated_at": "2025-12-05T01:26:34.901+00:00",
+      "variantes": null,
       "productos": [
         {
           "id": "aeffce2e-9107-4006-9c70-684f9b9cb5fb",
+          "orden": 0,
           "nombre": "Carne",
           "precio": 1500.15,
+          "created_at": "2025-12-01T20:33:14.027292+00:00",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "updated_at": "2025-12-04T04:51:43.594+00:00",
           "descripcion": null,
-          "orden": 0
-        },
-        {
-          "id": "acd28ae2-60e3-4632-9895-e240ddcb1e89",
-          "nombre": "Jamon y queso",
-          "precio": 1500,
-          "descripcion": null,
-          "orden": 1
+          "fk_categoria": "30ace0aa-810a-4338-b92b-12edf26c41ef"
         }
       ]
     },
     {
       "id": "d647e568-435b-4ad4-8e96-e0491973fe97",
       "nombre": "Pizzas",
+      "created_at": "2025-12-01T20:30:36.260236+00:00",
+      "fk_restaurante": "159218cf-90e1-4c39-9e82-d11518c3b6bc",
+      "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+      "orden": 1,
+      "updated_at": "2025-12-05T01:26:34.901+00:00",
       "variantes": [
         "Chica",
         "Grande"
       ],
-      "orden": 1,
       "productos": [
         {
           "id": "9ba50dcc-b34c-42f9-b809-7bfed6876c08",
+          "orden": 0,
           "nombre": "Calabresa",
           "precio": {
             "Chica": 19000,
             "Grande": 21000
           },
+          "created_at": "2025-12-01T20:31:13.201689+00:00",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "updated_at": "2025-12-05T02:13:02.174+00:00",
           "descripcion": "Es una pizza con calabresa arriba",
-          "orden": 0
+          "fk_categoria": "d647e568-435b-4ad4-8e96-e0491973fe97"
         }
       ]
     },
     {
-      "id": "6ff40ccd-a0d7-4980-b7af-e401cb764db2",
-      "nombre": "Minutas",
-      "variantes": null,
-      "orden": 2,
-      "productos": []
-    },
-    {
       "id": "945d4045-62bb-4c38-9ca8-5d2866d56be7",
       "nombre": "Porciones",
+      "created_at": "2025-12-01T23:26:16.363211+00:00",
+      "fk_restaurante": "159218cf-90e1-4c39-9e82-d11518c3b6bc",
+      "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+      "orden": 2,
+      "updated_at": "2025-12-05T01:26:34.901+00:00",
       "variantes": null,
-      "orden": 3,
       "productos": []
     }
   ]
