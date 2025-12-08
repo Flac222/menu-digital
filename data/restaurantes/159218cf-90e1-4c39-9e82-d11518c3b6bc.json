@@ -36,14 +36,22 @@
           "orden": 0,
           "nombre": "Mozzarella",
           "precio": {
-            "Chica": 16000,
-            "Grande": 17000
+            "Chica": 17000,
+            "Grande": 20000
           },
           "created_at": "2025-12-07T22:12:51.497727+00:00",
           "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
           "updated_at": "2025-12-08T03:38:39.431+00:00",
           "descripcion": "",
-          "fk_categoria": "d647e568-435b-4ad4-8e96-e0491973fe97"
+          "fk_categoria": "d647e568-435b-4ad4-8e96-e0491973fe97",
+          "tempNombre": "Mozzarella",
+          "tempDescripcion": "",
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 20000
+          },
+          "tempPrecioSimple": "",
+          "editando": false
         },
         {
           "id": "9ba50dcc-b34c-42f9-b809-7bfed6876c08",
@@ -58,6 +66,20 @@
           "updated_at": "2025-12-08T03:38:39.431+00:00",
           "descripcion": "Es una pizza con calabresa arriba",
           "fk_categoria": "d647e568-435b-4ad4-8e96-e0491973fe97"
+        },
+        {
+          "nombre": "Anchoas",
+          "created_at": "2025-12-08T21:20:44.115254+00:00",
+          "fk_categoria": "d647e568-435b-4ad4-8e96-e0491973fe97",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "9fe3b015-bc82-42c0-af67-aac978ad3df5",
+          "descripcion": "",
+          "orden": 2,
+          "updated_at": "2025-12-08T21:20:44.115254+00:00",
+          "precio": {
+            "Chica": 20000,
+            "Grande": 22000
+          }
         }
       ]
     },
@@ -78,7 +100,7 @@
           "precio": 1500,
           "created_at": "2025-12-01T20:33:14.027292+00:00",
           "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
-          "updated_at": "2025-12-08T00:02:57.336+00:00",
+          "updated_at": "2025-12-08T03:44:33.647+00:00",
           "descripcion": null,
           "fk_categoria": "30ace0aa-810a-4338-b92b-12edf26c41ef"
         },
@@ -89,9 +111,31 @@
           "precio": 1500,
           "created_at": "2025-12-05T06:38:02.056043+00:00",
           "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
-          "updated_at": "2025-12-08T00:02:57.336+00:00",
+          "updated_at": "2025-12-08T03:44:33.647+00:00",
           "descripcion": "",
           "fk_categoria": "30ace0aa-810a-4338-b92b-12edf26c41ef"
+        },
+        {
+          "nombre": "Cebolla y queso",
+          "created_at": "2025-12-08T21:20:56.65586+00:00",
+          "fk_categoria": "30ace0aa-810a-4338-b92b-12edf26c41ef",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "0b817ac2-c36c-451d-9de3-bc055bd6fdc2",
+          "descripcion": "",
+          "orden": 2,
+          "updated_at": "2025-12-08T21:20:56.65586+00:00",
+          "precio": 1500
+        },
+        {
+          "nombre": "Verdura",
+          "created_at": "2025-12-08T21:21:03.559471+00:00",
+          "fk_categoria": "30ace0aa-810a-4338-b92b-12edf26c41ef",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "70a36675-0c5b-4ade-b5e8-4c4fd5d1b80f",
+          "descripcion": "",
+          "orden": 3,
+          "updated_at": "2025-12-08T21:21:03.559471+00:00",
+          "precio": 1500
         }
       ]
     },
@@ -104,7 +148,41 @@
       "orden": 2,
       "updated_at": "2025-12-08T03:38:42.792+00:00",
       "variantes": null,
-      "productos": []
+      "productos": [
+        {
+          "nombre": "Fritas",
+          "created_at": "2025-12-08T21:21:10.487132+00:00",
+          "fk_categoria": "945d4045-62bb-4c38-9ca8-5d2866d56be7",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "631a0295-2035-460e-97c5-e4b4b07d937b",
+          "descripcion": "",
+          "orden": 0,
+          "updated_at": "2025-12-08T21:21:10.487132+00:00",
+          "precio": 7000
+        },
+        {
+          "nombre": "Pure de papa",
+          "created_at": "2025-12-08T21:21:19.283671+00:00",
+          "fk_categoria": "945d4045-62bb-4c38-9ca8-5d2866d56be7",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "7bd64d45-dcfb-42c5-8d0c-2ed5913e4e5f",
+          "descripcion": "",
+          "orden": 1,
+          "updated_at": "2025-12-08T21:21:19.283671+00:00",
+          "precio": 7000
+        },
+        {
+          "nombre": "Pure de zapallo",
+          "created_at": "2025-12-08T21:21:29.603489+00:00",
+          "fk_categoria": "945d4045-62bb-4c38-9ca8-5d2866d56be7",
+          "fk_usuario": "f0c25d92-f0fd-4530-902c-c65a7fe2c130",
+          "id": "46c68ef3-2f65-4299-bc78-a11d749164f0",
+          "descripcion": "",
+          "orden": 2,
+          "updated_at": "2025-12-08T21:21:29.603489+00:00",
+          "precio": 7000
+        }
+      ]
     }
   ]
 }
