@@ -4,6 +4,8 @@
     "nombre": "Lola del mar",
     "descripcion": "Pizzería",
     "direccion": "Avenida 3 y Paseo 129, Villa Gesell 7165",
+    "created_at": "2025-12-03T00:09:20.192718+00:00",
+    "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
     "color_primario": "\\xfb137b",
     "color_secundario": "\\xdeb816",
     "color_terciario": "\\xd42776",
@@ -18,1352 +20,2142 @@
   "categories": [
     {
       "id": "297d9ae0-cd0d-4502-9551-4bacb072767f",
-      "nombre": "Pizzas Chicas",
+      "nombre": "Pizzas",
+      "created_at": "2025-12-03T00:14:48.543092+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 0,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": [
+        "Chica",
+        "Grande"
+      ],
       "productos": [
         {
           "id": "b2f110d7-5ec1-4b52-a6e6-1f5d84fae6d7",
+          "orden": 0,
           "nombre": "Mozzarella",
-          "precio": 12000,
+          "precio": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "created_at": "2025-12-03T00:18:19.68525+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Queso Mozzarella + Salsa de Tomates",
-          "orden": 0
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Mozzarella",
+          "tempDescripcion": "Queso Mozzarella + Salsa de Tomates",
+          "tempPrecioSimple": "",
+          "tempPreciosVariantes": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "editando": false
         },
         {
           "id": "51a39504-8a7e-43c0-991d-e98e714693ba",
+          "orden": 1,
           "nombre": "Mozzarella con Ajo y Perejil",
-          "precio": 13000,
+          "precio": {
+            "Chica": 13000,
+            "Grande": 16000
+          },
+          "created_at": "2025-12-03T01:51:47.080671+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Mozzarella + Ajo y Perejil",
-          "orden": 1
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Mozzarella con Ajo y Perejil",
+          "tempDescripcion": "Idem Mozzarella + Ajo y Perejil",
+          "tempPrecioSimple": 13000,
+          "tempPreciosVariantes": {
+            "Chica": 13000,
+            "Grande": 16000
+          },
+          "editando": false
         },
         {
           "id": "a24e4d3b-0453-4f4d-9f0e-421d54b7b9e1",
+          "orden": 2,
           "nombre": "Mozzarella con Anchoas",
-          "precio": 14000,
+          "precio": {
+            "Chica": 14000,
+            "Grande": 16000
+          },
+          "created_at": "2025-12-03T01:53:32.692697+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Mozzarella + Anchoas",
-          "orden": 2
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Mozzarella con Anchoas",
+          "tempDescripcion": "Idem Mozzarella + Anchoas",
+          "tempPrecioSimple": 14000,
+          "tempPreciosVariantes": {
+            "Chica": 14000,
+            "Grande": 16000
+          },
+          "editando": false
         },
         {
           "id": "7cf8c9ec-753f-4a15-86e8-aa83f53e9b7c",
+          "orden": 3,
           "nombre": "Mozzarella con Morrones",
-          "precio": 14000,
+          "precio": {
+            "Chica": 14000,
+            "Grande": 16000
+          },
+          "created_at": "2025-12-03T18:28:03.822824+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Mozzarella + Morrones",
-          "orden": 3
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Mozzarella con Morrones",
+          "tempDescripcion": "Idem Mozzarella + Morrones",
+          "tempPrecioSimple": 14000,
+          "tempPreciosVariantes": {
+            "Chica": 14000,
+            "Grande": 16000
+          },
+          "editando": false
         },
         {
           "id": "3dfeb0de-4e7b-4dd1-91a2-cba5c0a046e6",
+          "orden": 4,
           "nombre": "Fugazza",
-          "precio": 12000,
+          "precio": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "created_at": "2025-12-03T18:32:26.895889+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Cebolla y Orégano",
-          "orden": 4
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Fugazza",
+          "tempDescripcion": "Cebolla y Orégano",
+          "tempPrecioSimple": "",
+          "tempPreciosVariantes": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "editando": false
         },
         {
           "id": "add19522-ef35-4910-af6f-1e5313aaa3d0",
+          "orden": 5,
           "nombre": "Fugazzeta",
-          "precio": 13000,
+          "precio": {
+            "Chica": 13000,
+            "Grande": 15000
+          },
+          "created_at": "2025-12-03T18:32:56.646577+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella con Cebolla",
-          "orden": 5
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Fugazzeta",
+          "tempDescripcion": "Mozzarella con Cebolla",
+          "tempPrecioSimple": 13000,
+          "tempPreciosVariantes": {
+            "Chica": 13000,
+            "Grande": 15000
+          },
+          "editando": false
         },
         {
           "id": "6ab66865-2823-485d-816c-ffdabd42fb11",
+          "orden": 6,
           "nombre": "Fugazzeta con Jamón",
-          "precio": 15000,
+          "precio": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "created_at": "2025-12-03T18:33:38.656723+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella, Cebolla y Jamón",
-          "orden": 6
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Fugazzeta con Jamón",
+          "tempDescripcion": "Mozzarella, Cebolla y Jamón",
+          "tempPrecioSimple": 15000,
+          "tempPreciosVariantes": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "editando": false
         },
         {
           "id": "2323493e-a775-49e3-a13a-eef1d66744b1",
+          "orden": 7,
           "nombre": "Fugazzeta Americana",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T18:40:28.714996+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Doble masa con Cebolla y Mozzarella",
-          "orden": 7
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Fugazzeta Americana",
+          "tempDescripcion": "Doble masa con Cebolla y Mozzarella",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "e81946a6-d7b0-4a55-aa7d-e675741fa591",
+          "orden": 8,
           "nombre": "Fugazzeta Americana con Jamón",
-          "precio": 18500,
-          "descripcion": "IDem Americana + Jamón",
-          "orden": 8
+          "precio": {
+            "Chica": 18500,
+            "Grande": 20500
+          },
+          "created_at": "2025-12-03T18:41:28.309116+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
+          "descripcion": "Idem Americana + Jamón",
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Fugazzeta Americana con Jamón",
+          "tempDescripcion": "Idem Americana + Jamón",
+          "tempPrecioSimple": 18500,
+          "tempPreciosVariantes": {
+            "Chica": 18500,
+            "Grande": 20500
+          },
+          "editando": false
         },
         {
           "id": "04bfa0d5-3894-46fc-a3d2-e88d1f9565fc",
+          "orden": 9,
           "nombre": "Margarita",
-          "precio": 15000,
+          "precio": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "created_at": "2025-12-03T18:41:54.083238+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella, Salsa de Tomates y Albahaca",
-          "orden": 9
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Margarita",
+          "tempDescripcion": "Mozzarella, Salsa de Tomates y Albahaca",
+          "tempPrecioSimple": 15000,
+          "tempPreciosVariantes": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "editando": false
         },
         {
           "id": "bec84e25-77d7-405c-b066-7770057e7f0d",
+          "orden": 10,
           "nombre": "Gitana",
-          "precio": 20000,
+          "precio": {
+            "Chica": 20000,
+            "Grande": 22000
+          },
+          "created_at": "2025-12-03T18:42:35.825606+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella, Jamón Crudo y Rúcula",
-          "orden": 10
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Gitana",
+          "tempDescripcion": "Mozzarella, Jamón Crudo y Rúcula",
+          "tempPrecioSimple": 20000,
+          "tempPreciosVariantes": {
+            "Chica": 20000,
+            "Grande": 22000
+          },
+          "editando": false
         },
         {
           "id": "fdf10669-765c-4006-bf3d-0c3cfbf9bd5a",
+          "orden": 11,
           "nombre": "Napolitana",
-          "precio": 15000,
+          "precio": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "created_at": "2025-12-03T18:44:02.53317+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella c/ Tomate Nat., Ajo y Perejil",
-          "orden": 11
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Napolitana",
+          "tempDescripcion": "Mozzarella c/ Tomate Nat., Ajo y Perejil",
+          "tempPrecioSimple": 15000,
+          "tempPreciosVariantes": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "editando": false
         },
         {
           "id": "e2c7e7ef-c849-4171-b9ca-8ff01a9443a8",
+          "orden": 12,
           "nombre": "Napolitana con Jamón",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T18:45:05.970266+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Napolitana + Jamón",
-          "orden": 12
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Napolitana con Jamón",
+          "tempDescripcion": "Idem Napolitana + Jamón",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "d771470e-70a2-4aec-a013-cce78a961fe3",
+          "orden": 13,
           "nombre": "Anchoas",
-          "precio": 13000,
+          "precio": {
+            "Chica": 13000,
+            "Grande": 15000
+          },
+          "created_at": "2025-12-03T19:12:00.932417+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Salsa de Tomates, Anchoas y Aceitunas Negras",
-          "orden": 13
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Anchoas",
+          "tempDescripcion": "Salsa de Tomates, Anchoas y Aceitunas Negras",
+          "tempPrecioSimple": 13000,
+          "tempPreciosVariantes": {
+            "Chica": 13000,
+            "Grande": 15000
+          },
+          "editando": false
         },
         {
           "id": "124a4857-1e53-4f06-a301-63c4208f6fe7",
+          "orden": 14,
           "nombre": "Atún",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T19:12:38.674433+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Salsa de Tomates, Mozzarella, Atún y Morrones",
-          "orden": 14
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Atún",
+          "tempDescripcion": "Salsa de Tomates, Mozzarella, Atún y Morrones",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "32146e37-a3bf-4934-af00-6607c2d33e5f",
+          "orden": 15,
           "nombre": "Jamón",
-          "precio": 15000,
+          "precio": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "created_at": "2025-12-03T19:13:07.794654+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella, Jamón y Aceitunas",
-          "orden": 15
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Jamón",
+          "tempDescripcion": "Mozzarella, Jamón y Aceitunas",
+          "tempPrecioSimple": 15000,
+          "tempPreciosVariantes": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "editando": false
         },
         {
           "id": "b549476d-d5c4-4aa9-80d7-19a8e1e0fb5c",
+          "orden": 16,
           "nombre": "Jamón con Roquefort",
-          "precio": 18000,
+          "precio": {
+            "Chica": 18000,
+            "Grande": 20000
+          },
+          "created_at": "2025-12-03T21:52:46.858559+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Jamón + Queso Roquefort",
-          "orden": 16
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Jamón con Roquefort",
+          "tempDescripcion": "Idem Jamón + Queso Roquefort",
+          "tempPrecioSimple": 18000,
+          "tempPreciosVariantes": {
+            "Chica": 18000,
+            "Grande": 20000
+          },
+          "editando": false
         },
         {
           "id": "82aa4014-c39e-4a10-8937-5f8b0cc4b3e2",
+          "orden": 17,
           "nombre": "Roquefort",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T21:53:44.154462+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella + Queso Roquefort",
-          "orden": 17
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Roquefort",
+          "tempDescripcion": "Mozzarella + Queso Roquefort",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "91136bb1-d5a1-430c-8468-989db94e5bfd",
+          "orden": 18,
           "nombre": "Jamón con Ananá",
-          "precio": 18000,
+          "precio": {
+            "Chica": 18000,
+            "Grande": 20000
+          },
+          "created_at": "2025-12-03T21:54:17.369508+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Jamón + Rodajas de Ananá",
-          "orden": 18
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Jamón con Ananá",
+          "tempDescripcion": "Idem Jamón + Rodajas de Ananá",
+          "tempPrecioSimple": 18000,
+          "tempPreciosVariantes": {
+            "Chica": 18000,
+            "Grande": 20000
+          },
+          "editando": false
         },
         {
           "id": "b27adf9b-9552-48d2-a75b-12da75b98e4a",
+          "orden": 19,
           "nombre": "Especial",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T21:55:06.331604+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella con Jamón y Morrones",
-          "orden": 19
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Especial",
+          "tempDescripcion": "Mozzarella con Jamón y Morrones",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "09da1fd5-4661-4e5c-a449-4c08893e2925",
+          "orden": 20,
           "nombre": "Huevolín",
-          "precio": 15000,
+          "precio": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "created_at": "2025-12-03T21:55:43.764458+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Mozzarella con Huevo duro rallado",
-          "orden": 20
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Huevolín",
+          "tempDescripcion": "Mozzarella con Huevo duro rallado",
+          "tempPrecioSimple": 15000,
+          "tempPreciosVariantes": {
+            "Chica": 15000,
+            "Grande": 17000
+          },
+          "editando": false
         },
         {
           "id": "8d1a1461-8a59-4f04-936a-0a6c9abde761",
+          "orden": 21,
           "nombre": "Huevolín con Anchoas",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T21:56:27.37751+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Idem Huevolín + Anchoas",
-          "orden": 21
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Huevolín con Anchoas",
+          "tempDescripcion": "Idem Huevolín + Anchoas",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "ba431f57-5f9c-421f-9f07-99304b166177",
+          "orden": 22,
           "nombre": "Cancha",
-          "precio": 12000,
+          "precio": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "created_at": "2025-12-03T21:57:26.959599+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:11:25.773+00:00",
           "descripcion": "Salsa Picante",
-          "orden": 22
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Cancha",
+          "tempDescripcion": "Salsa Picante",
+          "tempPrecioSimple": 12000,
+          "tempPreciosVariantes": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "editando": false
         },
         {
           "id": "0678ad1a-d903-4de9-ad69-d1f4fdf6cf4f",
+          "orden": 23,
           "nombre": "Manicomio",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T22:32:42.191183+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:32:42.191183+00:00",
           "descripcion": "Mozzarella, Jamón, Huevo y Morrones",
-          "orden": 23
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Manicomio",
+          "tempDescripcion": "Mozzarella, Jamón, Huevo y Morrones",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "32385b82-4f58-4761-a987-81ffe207a1be",
+          "orden": 24,
           "nombre": "Berenjon",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T22:33:35.197714+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:33:35.197714+00:00",
           "descripcion": "Mozzarella, Jamón, Berenjenas y Morrones",
-          "orden": 24
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Berenjon",
+          "tempDescripcion": "Mozzarella, Jamón, Berenjenas y Morrones",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "37583f56-904f-4eda-ad40-1ccd3a993e7d",
+          "orden": 25,
           "nombre": "Humita",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T22:34:22.059656+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:34:22.059656+00:00",
           "descripcion": "Mozzarella, Crema de Choclo y Salsa Blanca",
-          "orden": 25
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Humita",
+          "tempDescripcion": "Mozzarella, Crema de Choclo y Salsa Blanca",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "8c16f69b-d93b-40d8-a33d-04d64edd0ae0",
+          "orden": 26,
           "nombre": "Champignon",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T22:36:26.660986+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:36:26.660986+00:00",
           "descripcion": "Mozzarella, Champiñones, Morrones y Condimentos",
-          "orden": 26
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Champignon",
+          "tempDescripcion": "Mozzarella, Champiñones, Morrones y Condimentos",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "505bb960-fb57-4c3c-bab1-8e3afc381654",
+          "orden": 27,
           "nombre": "Lola",
-          "precio": 20000,
+          "precio": {
+            "Chica": 20000,
+            "Grande": 23000
+          },
+          "created_at": "2025-12-03T22:37:37.218811+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:37:37.218811+00:00",
           "descripcion": "Mozzarella, Jamón, Palmitos con Salsa Golf, Huevo, Morrones y Rodajas de Tomates",
-          "orden": 27
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Lola",
+          "tempDescripcion": "Mozzarella, Jamón, Palmitos con Salsa Golf, Huevo, Morrones y Rodajas de Tomates",
+          "tempPrecioSimple": 20000,
+          "tempPreciosVariantes": {
+            "Chica": 20000,
+            "Grande": 23000
+          },
+          "editando": false
         },
         {
           "id": "116c9377-23cf-49f0-aef8-c76135d91fec",
+          "orden": 28,
           "nombre": "Popeye",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T22:38:21.174594+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:38:21.174594+00:00",
           "descripcion": "Mozzarella, Salsa Blanca, Espinaca, Queso rallado y Morrones",
-          "orden": 28
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Popeye",
+          "tempDescripcion": "Mozzarella, Salsa Blanca, Espinaca, Queso rallado y Morrones",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "c5b6938f-dc48-402c-ba56-1763543ff4ae",
+          "orden": 29,
           "nombre": "Parmesano",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T22:39:21.616871+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:39:21.616871+00:00",
           "descripcion": "Mozzarella, Parmesano, Pimienta y Oliva",
-          "orden": 29
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Parmesano",
+          "tempDescripcion": "Mozzarella, Parmesano, Pimienta y Oliva",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "ad05d7fe-e881-4bd7-aca3-e58a722712d6",
+          "orden": 30,
           "nombre": "Provolone",
-          "precio": 16000,
+          "precio": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "created_at": "2025-12-03T22:40:08.014208+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:40:08.014208+00:00",
           "descripcion": "Mozzarella, Provolone, Pimienta y Oliva",
-          "orden": 30
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Provolone",
+          "tempDescripcion": "Mozzarella, Provolone, Pimienta y Oliva",
+          "tempPrecioSimple": 16000,
+          "tempPreciosVariantes": {
+            "Chica": 16000,
+            "Grande": 18000
+          },
+          "editando": false
         },
         {
           "id": "a1e2a279-d03c-4e84-8104-30d0fac78b60",
+          "orden": 31,
           "nombre": "Primavera",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T22:42:10.658909+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:42:10.658909+00:00",
           "descripcion": "Mozzarella con Jamón, Huevo y Rodajas de Tomates",
-          "orden": 31
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Primavera",
+          "tempDescripcion": "Mozzarella con Jamón, Huevo y Rodajas de Tomates",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         },
         {
           "id": "5df164f1-4daa-4a84-b885-9dd95b61b599",
+          "orden": 32,
           "nombre": "Pizzaiola",
-          "precio": 12000,
+          "precio": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "created_at": "2025-12-03T22:43:11.252499+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:43:11.252499+00:00",
           "descripcion": "Salsa de Tomates, Ajo, Orégano y Oliva",
-          "orden": 32
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Pizzaiola",
+          "tempDescripcion": "Salsa de Tomates, Ajo, Orégano y Oliva",
+          "tempPrecioSimple": 12000,
+          "tempPreciosVariantes": {
+            "Chica": 12000,
+            "Grande": 14000
+          },
+          "editando": false
         },
         {
           "id": "7429ef30-bd12-4cc7-a9ad-81dc195e2c28",
+          "orden": 33,
           "nombre": "Palmitos",
-          "precio": 20000,
+          "precio": {
+            "Chica": 20000,
+            "Grande": 22000
+          },
+          "created_at": "2025-12-03T22:43:55.3159+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:43:55.3159+00:00",
           "descripcion": "Mozzarella con Jamón, Palmitos y Salsa Golf",
-          "orden": 33
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Palmitos",
+          "tempDescripcion": "Mozzarella con Jamón, Palmitos y Salsa Golf",
+          "tempPrecioSimple": 20000,
+          "tempPreciosVariantes": {
+            "Chica": 20000,
+            "Grande": 22000
+          },
+          "editando": false
         },
         {
           "id": "771d94b3-8573-457c-83f4-b601b72da01f",
+          "orden": 34,
           "nombre": "Bahiana",
-          "precio": 17000,
+          "precio": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "created_at": "2025-12-03T22:44:45.107749+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:44:45.107749+00:00",
           "descripcion": "Mozzarella, Jamón, Banana, Caramelo y Canela",
-          "orden": 34
+          "fk_categoria": "297d9ae0-cd0d-4502-9551-4bacb072767f",
+          "tempNombre": "Bahiana",
+          "tempDescripcion": "Mozzarella, Jamón, Banana, Caramelo y Canela",
+          "tempPrecioSimple": 17000,
+          "tempPreciosVariantes": {
+            "Chica": 17000,
+            "Grande": 19000
+          },
+          "editando": false
         }
-      ]
-    },
-    {
-      "id": "b0fb3e94-65d5-4d7d-bd36-d70ab841a821",
-      "nombre": "Pizzas Grandes",
-      "orden": 1,
-      "productos": [
-        {
-          "id": "1232cb5b-c1bf-4b27-9e67-8c514d715703",
-          "nombre": "Mozzarella",
-          "precio": 14000,
-          "descripcion": "Queso Mozzarella + Salsa de Tomates",
-          "orden": 0
-        },
-        {
-          "id": "f49d990e-f6d4-4944-8d1d-d36074f6d5e1",
-          "nombre": "Mozzarella con Ajo y Perejil",
-          "precio": 16000,
-          "descripcion": "Idem Mozzarella + Ajo y Perejil",
-          "orden": 1
-        },
-        {
-          "id": "fb388a9b-afa7-466b-903d-630226fa4668",
-          "nombre": "Mozzarella con Anchoas",
-          "precio": 16000,
-          "descripcion": "Idem Mozzarella + Anchoas",
-          "orden": 2
-        },
-        {
-          "id": "4b52121b-49c7-46eb-bcd8-f9fb80efbe4e",
-          "nombre": "Mozzarella con Morrones",
-          "precio": 16000,
-          "descripcion": "Idem Mozzarella + Morrones",
-          "orden": 3
-        },
-        {
-          "id": "f451e15c-d6b1-46d7-b8e5-0df5c65f4188",
-          "nombre": "Fugazza",
-          "precio": 14000,
-          "descripcion": "Cebolla y Orégano",
-          "orden": 4
-        },
-        {
-          "id": "51ccf92e-97e5-468f-94e9-837eac6c84ae",
-          "nombre": "Fugazzeta",
-          "precio": 15000,
-          "descripcion": "Mozzarella con Cebolla",
-          "orden": 5
-        },
-        {
-          "id": "ee72a90f-adb7-455a-a771-45dd1f36e69d",
-          "nombre": "Fugazzeta con Jamón",
-          "precio": 17000,
-          "descripcion": "Mozzarella, Cebolla y Jamón",
-          "orden": 6
-        },
-        {
-          "id": "79050d1e-82dc-403d-be4a-6053e7c8f890",
-          "nombre": "Fugazzeta Americana",
-          "precio": 19000,
-          "descripcion": "Doble masa con Cebolla y Mozzarella",
-          "orden": 7
-        },
-        {
-          "id": "7b0966a3-ade4-469a-8dd5-96a585cbf58e",
-          "nombre": "Fugazzeta Americana con Jamón",
-          "precio": 20500,
-          "descripcion": "IDem Americana + Jamón",
-          "orden": 8
-        },
-        {
-          "id": "b81881a3-9ef2-4041-aec8-d0e64236f291",
-          "nombre": "Margarita",
-          "precio": 17000,
-          "descripcion": "Mozzarella, Salsa de Tomates y Albahaca",
-          "orden": 9
-        },
-        {
-          "id": "8a82e02b-f528-417d-8230-993e2fd8a543",
-          "nombre": "Gitana",
-          "precio": 22000,
-          "descripcion": "Mozzarella, Jamón Crudo y Rúcula",
-          "orden": 10
-        },
-        {
-          "id": "e95188f5-a66a-4549-b64d-3ea19e248cf2",
-          "nombre": "Napolitana",
-          "precio": 17000,
-          "descripcion": "Mozzarella c/ Tomate Nat., Ajo y Perejil",
-          "orden": 11
-        },
-        {
-          "id": "ebbd9128-eb08-4963-af43-4dd6c2d91987",
-          "nombre": "Napolitana con Jamón",
-          "precio": 19000,
-          "descripcion": "Idem Napolitana + Jamón",
-          "orden": 12
-        },
-        {
-          "id": "da8ba49b-eaee-44a0-8a77-80b2da8cf546",
-          "nombre": "Anchoas",
-          "precio": 15000,
-          "descripcion": "Salsa de Tomates, Anchoas y Aceitunas Negras",
-          "orden": 13
-        },
-        {
-          "id": "4284ef31-b19b-401b-a5b5-674e60869a24",
-          "nombre": "Atún",
-          "precio": 18000,
-          "descripcion": "Salsa de Tomates, Mozzarella, Atún y Morrones",
-          "orden": 14
-        },
-        {
-          "id": "65192951-de79-4b8d-9702-74efed881117",
-          "nombre": "Jamón",
-          "precio": 17000,
-          "descripcion": "Mozzarella, Jamón y Aceitunas",
-          "orden": 15
-        },
-        {
-          "id": "29fdf87b-67ea-4da3-b4ba-195e6f632e4b",
-          "nombre": "Jamón con Roquefort",
-          "precio": 20000,
-          "descripcion": "Idem Jamón + Queso Roquefort",
-          "orden": 16
-        },
-        {
-          "id": "085743ec-9f71-4ffc-827b-dc807be9805a",
-          "nombre": "Roquefort",
-          "precio": 19000,
-          "descripcion": "Mozzarella + Queso Roquefort",
-          "orden": 17
-        },
-        {
-          "id": "e16e4533-e80e-4e6e-a62a-225be6caa4d6",
-          "nombre": "Jamón con Ananá",
-          "precio": 20000,
-          "descripcion": "Idem Jamón + Rodajas de Ananá",
-          "orden": 18
-        },
-        {
-          "id": "47b3582c-a70a-4744-ab39-907e0d8c855e",
-          "nombre": "Especial",
-          "precio": 18000,
-          "descripcion": "Mozzarella con Jamón y Morrones",
-          "orden": 19
-        },
-        {
-          "id": "2d091869-e305-4fe0-8749-9aeaaf441d1e",
-          "nombre": "Huevolín",
-          "precio": 17000,
-          "descripcion": "Mozzarella con Huevo duro rallado",
-          "orden": 20
-        },
-        {
-          "id": "00ce1320-2a71-4bf8-8107-2aeb202f84eb",
-          "nombre": "Huevolín con Anchoas",
-          "precio": 19000,
-          "descripcion": "Idem Huevolín + Anchoas",
-          "orden": 21
-        },
-        {
-          "id": "548df558-330c-497b-b81c-3f46aeb5af67",
-          "nombre": "Cancha",
-          "precio": 14000,
-          "descripcion": "Salsa Picante",
-          "orden": 22
-        },
-        {
-          "id": "845b5ef5-2a6a-4652-b196-a6ba77dd8a34",
-          "nombre": "Manicomio",
-          "precio": 19000,
-          "descripcion": "Mozzarella, Jamón, Huevo y Morrones",
-          "orden": 23
-        },
-        {
-          "id": "c2a8c538-3945-4243-949f-399d33d58cb5",
-          "nombre": "Berenjon",
-          "precio": 19000,
-          "descripcion": "Mozzarella, Jamón, Berenjenas y Morrones",
-          "orden": 24
-        },
-        {
-          "id": "d193f807-383c-42db-a8d6-82510c166aad",
-          "nombre": "Humita",
-          "precio": 18000,
-          "descripcion": "Mozzarella, Crema de Choclo y Salsa Blanca",
-          "orden": 25
-        },
-        {
-          "id": "ff5cde0a-5591-4703-958a-0ec6f6869bee",
-          "nombre": "Champignon",
-          "precio": 19000,
-          "descripcion": "Mozzarella, Champiñones, Morrones y Condimentos",
-          "orden": 26
-        },
-        {
-          "id": "3f11ca22-0499-4cd3-a69c-673a90a997c9",
-          "nombre": "Lola",
-          "precio": 23000,
-          "descripcion": "Mozzarella, Jamón, Palmitos con Salsa Golf, Huevo, Morrones y Rodajas de Tomates",
-          "orden": 27
-        },
-        {
-          "id": "9312c6e3-1ae0-4842-894c-5243b1c319d7",
-          "nombre": "Popeye",
-          "precio": 18000,
-          "descripcion": "Mozzarella, Salsa Blanca, Espinaca, Queso rallado y Morrones",
-          "orden": 28
-        },
-        {
-          "id": "757d306a-6d63-433a-aeb5-9f37d293901b",
-          "nombre": "Parmesano",
-          "precio": 18000,
-          "descripcion": "Mozzarella, Parmesano, Pimienta y Oliva",
-          "orden": 29
-        },
-        {
-          "id": "b4aa04ea-47be-4f64-aca1-374ce84f133f",
-          "nombre": "Provolone",
-          "precio": 18000,
-          "descripcion": "Mozzarella, Provolone, Pimienta y Oliva",
-          "orden": 30
-        },
-        {
-          "id": "7ac15cb0-6819-46a8-b96a-43a508fd0858",
-          "nombre": "Primavera",
-          "precio": 19000,
-          "descripcion": "Mozzarella con Jamón, Huevo y Rodajas de Tomates",
-          "orden": 31
-        },
-        {
-          "id": "308ca115-f591-408c-a732-1b01cb358fa3",
-          "nombre": "Pizzaiola",
-          "precio": 14000,
-          "descripcion": "Salsa de Tomates, Ajo, Orégano y Oliva",
-          "orden": 32
-        },
-        {
-          "id": "d1ddefcc-8fd4-44f6-aa03-deb3142bf50d",
-          "nombre": "Palmitos",
-          "precio": 22000,
-          "descripcion": "Mozzarella con Jamón, Palmitos y Salsa Golf",
-          "orden": 33
-        },
-        {
-          "id": "544ddfd4-bd7b-420a-8612-f3f9b7807fef",
-          "nombre": "Bahiana",
-          "precio": 19000,
-          "descripcion": "Mozzarella, Jamón, Banana, Caramelo y Canela",
-          "orden": 34
-        }
-      ]
+      ],
+      "tempNombre": "Pizzas",
+      "tempVariantes": [
+        "Chica",
+        "Grande"
+      ],
+      "inputVariante": "",
+      "editando": false
     },
     {
       "id": "1a08cf43-3228-4bdb-a5b8-b439d263677d",
       "nombre": "Porciones",
+      "created_at": "2025-12-03T22:46:54.154203+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 2,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
           "id": "f17b82ae-916f-4ae9-aac2-005f1851233c",
+          "orden": 0,
           "nombre": "Pizza Al Taglio (Rellena)",
           "precio": 6000,
+          "created_at": "2025-12-03T22:47:29.321202+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:47:29.321202+00:00",
           "descripcion": "Hasta 4 Ingredientes",
-          "orden": 0
+          "fk_categoria": "1a08cf43-3228-4bdb-a5b8-b439d263677d"
         },
         {
           "id": "65aeadc7-6fab-4aca-b86d-08e346260b10",
+          "orden": 1,
           "nombre": "Fainá",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 1
+          "created_at": "2025-12-03T22:47:51.198063+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:47:51.198063+00:00",
+          "descripcion": null,
+          "fk_categoria": "1a08cf43-3228-4bdb-a5b8-b439d263677d"
         },
         {
           "id": "f0129ba5-8d03-4c39-b107-12f083e4683e",
+          "orden": 2,
           "nombre": "Fugafaina",
           "precio": 2500,
-          "descripcion": "",
-          "orden": 2
+          "created_at": "2025-12-03T22:48:03.476188+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:48:03.476188+00:00",
+          "descripcion": null,
+          "fk_categoria": "1a08cf43-3228-4bdb-a5b8-b439d263677d"
         },
         {
           "id": "4779cd6d-f38b-4708-8f7c-f62dfc1d5e78",
+          "orden": 3,
           "nombre": "Fainanapo",
           "precio": 2500,
-          "descripcion": "",
-          "orden": 3
+          "created_at": "2025-12-03T22:48:15.011741+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:48:15.011741+00:00",
+          "descripcion": null,
+          "fk_categoria": "1a08cf43-3228-4bdb-a5b8-b439d263677d"
         }
       ]
     },
     {
       "id": "02c24ff2-427c-4563-88fa-f3d51d872f31",
-      "nombre": "Calzones Chicos",
+      "nombre": "Calzones",
+      "created_at": "2025-12-03T22:48:47.284519+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 3,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": [
+        "Chico",
+        "Grande"
+      ],
       "productos": [
         {
           "id": "58d46287-6395-4a54-b93e-aecc289fbb94",
+          "orden": 0,
           "nombre": "Lola",
-          "precio": 22000,
+          "precio": {
+            "Chico": 22000,
+            "Grande": 25000
+          },
+          "created_at": "2025-12-03T22:49:59.675835+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-05T00:26:55.389+00:00",
           "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Huevo, Palmitos y Salsa Golf",
-          "orden": 0
+          "fk_categoria": "02c24ff2-427c-4563-88fa-f3d51d872f31",
+          "tempNombre": "Lola",
+          "tempDescripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Huevo, Palmitos y Salsa Golf",
+          "tempPrecioSimple": 22000,
+          "tempPreciosVariantes": {
+            "Chico": 22000,
+            "Grande": 25000
+          },
+          "editando": false
         },
         {
           "id": "6d8d118b-06d7-4043-a2f4-1901b39819ff",
+          "orden": 1,
           "nombre": "Napolitano",
-          "precio": 21000,
+          "precio": {
+            "Chico": 21000,
+            "Grande": 24000
+          },
+          "created_at": "2025-12-03T22:51:41.492947+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-05T00:26:55.389+00:00",
           "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Ajo y Perejil",
-          "orden": 1
+          "fk_categoria": "02c24ff2-427c-4563-88fa-f3d51d872f31",
+          "tempNombre": "Napolitano",
+          "tempDescripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Ajo y Perejil",
+          "tempPrecioSimple": 21000,
+          "tempPreciosVariantes": {
+            "Chico": 21000,
+            "Grande": 24000
+          },
+          "editando": false
         },
         {
           "id": "01bda4f1-e15e-4a1c-a6fd-973d8ac3bccd",
+          "orden": 2,
           "nombre": "Giusepino",
-          "precio": 21000,
+          "precio": {
+            "Chico": 21000,
+            "Grande": 24000
+          },
+          "created_at": "2025-12-03T22:52:36.489052+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-05T00:26:55.389+00:00",
           "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Queso Provolone y Berenjenas",
-          "orden": 2
+          "fk_categoria": "02c24ff2-427c-4563-88fa-f3d51d872f31",
+          "tempNombre": "Giusepino",
+          "tempDescripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Queso Provolone y Berenjenas",
+          "tempPrecioSimple": 21000,
+          "tempPreciosVariantes": {
+            "Chico": 21000,
+            "Grande": 24000
+          },
+          "editando": false
         }
-      ]
-    },
-    {
-      "id": "6372c4d4-50f8-459c-b95a-efb49544ae6b",
-      "nombre": "Calzones Grandes",
-      "orden": 4,
-      "productos": [
-        {
-          "id": "5a14dbf5-84a9-4483-b05e-74a1d44ef842",
-          "nombre": "Lola",
-          "precio": 25000,
-          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Huevo, Palmitos y Salsa Golf",
-          "orden": 0
-        },
-        {
-          "id": "16c5cefc-fe57-4bb9-8e2b-9b7e49df31ab",
-          "nombre": "Napolitano",
-          "precio": 24000,
-          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Jamón, Ajo y Perejil",
-          "orden": 1
-        },
-        {
-          "id": "a144b2d3-58d5-43fa-80b1-c25bc1187b24",
-          "nombre": "Giusepino",
-          "precio": 24000,
-          "descripcion": "Mozzarella, Salsa de Tomates, Rodajas de Tomates al Natural, Queso Provolone y Berenjenas",
-          "orden": 2
-        }
-      ]
+      ],
+      "tempNombre": "Calzones",
+      "tempVariantes": [
+        "Chico",
+        "Grande"
+      ],
+      "inputVariante": "",
+      "editando": false
     },
     {
       "id": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b",
       "nombre": "Empanadas",
+      "created_at": "2025-12-03T22:53:11.556867+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 5,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
           "id": "2b1a53ff-0629-4f4d-a7a3-2a338ba2a5e4",
+          "orden": 0,
           "nombre": "Carne",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 0
+          "created_at": "2025-12-03T22:53:28.717263+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:53:28.717263+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "21fe7708-b0ff-45c0-bfcb-f47576c91e1a",
+          "orden": 1,
           "nombre": "Pollo",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 1
+          "created_at": "2025-12-03T22:53:36.204777+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:53:36.204777+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "c8e8030b-a563-4bc5-86f0-b1b3748fd0ac",
+          "orden": 2,
           "nombre": "Humita",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 2
+          "created_at": "2025-12-03T22:53:53.713597+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:53:53.713597+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "2e68883e-0508-4fae-88dc-27484ccc788b",
+          "orden": 3,
           "nombre": "Jamón y Queso",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 3
+          "created_at": "2025-12-03T22:54:06.274901+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:54:06.274901+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "582c2d78-367f-4a8c-8ecf-d3ebda6ab5eb",
+          "orden": 4,
           "nombre": "Atún",
           "precio": 2000,
-          "descripcion": "",
-          "orden": 4
+          "created_at": "2025-12-03T22:54:29.200282+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:54:29.200282+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "b2404185-c90a-4642-9175-0d0b27b6c9bb",
+          "orden": 5,
           "nombre": "Queso y Cebolla",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 5
+          "created_at": "2025-12-03T22:54:44.714982+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:54:44.714982+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "22a0e4e4-52c6-4745-8638-52d305d47491",
+          "orden": 6,
           "nombre": "Roquefort",
           "precio": 2000,
-          "descripcion": "",
-          "orden": 6
+          "created_at": "2025-12-03T22:54:52.915218+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:54:52.915218+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "e7093d87-ec2b-4a84-9396-c5c5918167a6",
+          "orden": 7,
           "nombre": "Caprese",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 7
+          "created_at": "2025-12-03T22:55:02.641117+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:55:02.641117+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "ab926936-4b3f-4729-b360-434f25a9591f",
+          "orden": 8,
           "nombre": "Verdura",
           "precio": 1800,
-          "descripcion": "",
-          "orden": 8
+          "created_at": "2025-12-03T22:55:10.330116+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:55:10.330116+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         },
         {
           "id": "be536b85-6e46-4fdf-b377-c7f0649ed63e",
+          "orden": 9,
           "nombre": "Calabresa",
           "precio": 2000,
-          "descripcion": "",
-          "orden": 9
+          "created_at": "2025-12-03T22:55:17.686304+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:55:17.686304+00:00",
+          "descripcion": null,
+          "fk_categoria": "b01f1055-b07d-4e2c-bfff-63da5b2ab51b"
         }
       ]
     },
     {
       "id": "3871c44e-8e96-404c-a32c-c4c464ae9083",
       "nombre": "Empanadas Especiales",
+      "created_at": "2025-12-03T22:56:54.345361+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 6,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
           "id": "18474c0d-0b2e-416e-91d2-7cfe7ac29144",
+          "orden": 0,
           "nombre": "Ananá",
           "precio": 3500,
+          "created_at": "2025-12-03T22:57:32.757541+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:57:32.757541+00:00",
           "descripcion": "Mozzarella, Jamón, Ananá y Caramelo",
-          "orden": 0
+          "fk_categoria": "3871c44e-8e96-404c-a32c-c4c464ae9083"
         },
         {
           "id": "2fce9d9b-4979-444c-9b77-1bd682a39a21",
+          "orden": 1,
           "nombre": "Banana",
           "precio": 3500,
+          "created_at": "2025-12-03T22:58:01.783111+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:58:01.783111+00:00",
           "descripcion": "Mozzarella, Jamón, Banana y Caramelo",
-          "orden": 1
+          "fk_categoria": "3871c44e-8e96-404c-a32c-c4c464ae9083"
         },
         {
           "id": "c9c665fd-40b3-43a7-a846-8088b373b5ec",
+          "orden": 2,
           "nombre": "Ciruela",
           "precio": 3500,
+          "created_at": "2025-12-03T22:58:19.833686+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:58:19.833686+00:00",
           "descripcion": "Mozzarella, Jamón, Ciruela y Caramelo",
-          "orden": 2
+          "fk_categoria": "3871c44e-8e96-404c-a32c-c4c464ae9083"
         },
         {
           "id": "a32d4ad4-d852-4a77-8d86-82e66ef77690",
+          "orden": 3,
           "nombre": "Ciruela y Panceta",
           "precio": 3500,
+          "created_at": "2025-12-03T22:58:58.128552+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-03T22:58:58.128552+00:00",
           "descripcion": "Mozzarella, Jamón, Ciruela, Caramelo y Panceta",
-          "orden": 3
+          "fk_categoria": "3871c44e-8e96-404c-a32c-c4c464ae9083"
         }
       ]
     },
     {
       "id": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8",
       "nombre": "Minutas",
+      "created_at": "2025-12-03T22:59:13.644422+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 7,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
           "id": "bddccb8b-ce56-4da1-81e5-636e246279e6",
+          "orden": 0,
           "nombre": "Milanesa de Ternera o Pollo",
           "precio": 12000,
-          "descripcion": "",
-          "orden": 0
+          "created_at": "2025-12-03T22:59:31.580504+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
           "id": "63a9f4fa-f903-4dd7-af65-8020f227b77f",
+          "orden": 1,
           "nombre": "Suprema o Milanesa Napolitana",
           "precio": 13500,
-          "descripcion": "",
-          "orden": 1
+          "created_at": "2025-12-03T22:59:44.866495+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
           "id": "ccae9b13-cfe6-4a43-8db0-e452556dc99d",
+          "orden": 2,
           "nombre": "Papas Fritas",
           "precio": 7000,
-          "descripcion": "",
-          "orden": 2
+          "created_at": "2025-12-03T22:59:55.810107+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
           "id": "60e878df-8c12-4445-9db3-5ccea6834f95",
+          "orden": 3,
           "nombre": "Puré de Papas",
           "precio": 7000,
-          "descripcion": "",
-          "orden": 3
+          "created_at": "2025-12-03T23:00:06.312939+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
           "id": "b3c327fa-aacc-43d8-8abb-f87dcaba9120",
+          "orden": 4,
           "nombre": "Omellette de Jamón y Queso",
           "precio": 10000,
-          "descripcion": "",
-          "orden": 4
+          "created_at": "2025-12-03T23:01:20.591402+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
           "id": "e63ee03e-7792-4613-936c-1f5e6f12cf2c",
+          "orden": 5,
           "nombre": "Omellette de Pollo y Champiñones",
           "precio": 13000,
-          "descripcion": "",
-          "orden": 5
+          "created_at": "2025-12-03T23:03:19.998643+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-04T06:00:34.018+00:00",
+          "descripcion": null,
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
-          "id": "e11c7232-4c49-49fc-918b-ad3f91a9f002",
+          "id": "cac48a46-9ed6-4a1d-bedb-2cb1d4e24283",
+          "orden": 6,
           "nombre": "Tortilla de Papas y Cebolla",
           "precio": 10000,
+          "created_at": "2025-12-08T21:37:13.344687+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-08T21:37:13.344687+00:00",
           "descripcion": "",
-          "orden": 6
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
-          "id": "a50b815d-81db-4287-8dd0-784c5ac3c0be",
+          "id": "7295e0a0-93ed-4706-b5d1-69637498adbd",
+          "orden": 7,
           "nombre": "Tortilla a La Española",
           "precio": 13000,
+          "created_at": "2025-12-08T21:37:24.763371+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-08T21:37:24.763371+00:00",
           "descripcion": "",
-          "orden": 7
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         },
         {
-          "id": "c31f6a65-2953-4bed-99ac-c960c46d934b",
+          "id": "ef8b5fc7-e8e1-4c63-bb19-47e7ed13defd",
+          "orden": 8,
           "nombre": "Tortilla de Verdura",
           "precio": 10000,
+          "created_at": "2025-12-08T21:37:40.853984+00:00",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "updated_at": "2025-12-08T21:37:40.853984+00:00",
           "descripcion": "",
-          "orden": 8
+          "fk_categoria": "779192b4-75f8-4cd4-a456-a30aa3d4d0f8"
         }
       ]
     },
     {
       "id": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
       "nombre": "Pescados",
+      "created_at": "2025-12-03T23:04:10.234482+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 8,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "62d57bc7-2861-40cc-b001-3a6eecb177ec",
           "nombre": "Rabas",
-          "precio": 18000,
+          "created_at": "2025-12-14T02:42:51.930577+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "305be99d-b0b8-4eba-9ca0-91880f08ce6e",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T02:42:51.930577+00:00",
+          "precio": 18000
         },
         {
-          "id": "c2b60742-1270-4b8e-b172-9218939ece9a",
           "nombre": "Cornalitos",
-          "precio": 12000,
+          "created_at": "2025-12-14T02:43:02.80921+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "63e787fb-0316-40e5-ae22-7f63722e7273",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T02:43:02.80921+00:00",
+          "precio": 12000
         },
         {
-          "id": "885c5521-ba6c-49f7-850c-59f4df75ed58",
           "nombre": "Rabas a La Provenzal",
-          "precio": 20000,
+          "created_at": "2025-12-14T02:43:14.749949+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "0370d898-7966-40ae-bbd8-7364ac20520c",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T02:43:14.749949+00:00",
+          "precio": 20000
         },
         {
-          "id": "5249fdf5-86de-4ced-88f4-b55eadf7d597",
           "nombre": "Filet de Merluza a la plancha",
-          "precio": 10000,
+          "created_at": "2025-12-14T02:43:36.840126+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "35304e52-a55d-4bd6-8ad9-b197a75d33ff",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T02:43:36.840126+00:00",
+          "precio": 10000
         },
         {
-          "id": "4ae003b5-f046-4b8c-88b2-28f054a34f9e",
           "nombre": "Filet de Merluza a La Romana",
-          "precio": 10000,
+          "created_at": "2025-12-14T02:43:46.88851+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "146e153c-d5fc-40da-aaff-d8b9f65fcefa",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T02:43:46.88851+00:00",
+          "precio": 10000
         },
         {
-          "id": "21e2cc09-942d-4b57-b444-9c5ab4714a07",
           "nombre": "Filet de Merluza al Roquefort",
-          "precio": 12000,
+          "created_at": "2025-12-14T02:44:05.715961+00:00",
+          "fk_categoria": "b2e7fd67-a9da-429f-afcc-baf91e7d8cf8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "b52e265c-6298-4268-9a53-11e38b7623b9",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T02:44:05.715961+00:00",
+          "precio": 12000
         }
       ]
     },
     {
       "id": "14ec1af0-0e3d-4661-9c9c-979324806e24",
       "nombre": "Ensaladas",
+      "created_at": "2025-12-03T23:05:42.367732+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 9,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "a41a058d-dc7c-49db-a6a8-b76ba9622f03",
-          "nombre": "Tres verduras a elección",
-          "precio": 10000,
+          "nombre": "Tres verduras a eleccion",
+          "created_at": "2025-12-14T02:44:23.483138+00:00",
+          "fk_categoria": "14ec1af0-0e3d-4661-9c9c-979324806e24",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "88081bf5-2495-4701-a2ce-bc363c7eca73",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T02:44:23.483138+00:00",
+          "precio": 10000
         },
         {
-          "id": "6ee018ae-1b1f-4b0c-976b-625848be2165",
-          "nombre": "Tres verduras y Huevo",
-          "precio": 12000,
+          "nombre": "Tres verduras y huevo",
+          "created_at": "2025-12-14T02:44:38.797369+00:00",
+          "fk_categoria": "14ec1af0-0e3d-4661-9c9c-979324806e24",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "d7f704a2-a20b-4d98-9848-e0715c571547",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T02:44:38.797369+00:00",
+          "precio": 12000
         },
         {
-          "id": "0d649ea0-700a-43b7-96c3-567cd3f35e6d",
-          "nombre": "Capresse",
-          "precio": 13000,
+          "nombre": "Caprese",
+          "created_at": "2025-12-14T02:46:50.782786+00:00",
+          "fk_categoria": "14ec1af0-0e3d-4661-9c9c-979324806e24",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "402c7912-16ba-4a9c-87c9-4e09cf72af7d",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T02:46:50.782786+00:00",
+          "precio": 13000
         },
         {
-          "id": "c99d4366-c4c9-4880-9b4d-eb13194cf5d2",
           "nombre": "Rúcula con Parmesano",
-          "precio": 14000,
+          "created_at": "2025-12-14T02:47:09.451297+00:00",
+          "fk_categoria": "14ec1af0-0e3d-4661-9c9c-979324806e24",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "8eb292a8-3f76-4111-9b76-6265d0e9988d",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T02:47:09.451297+00:00",
+          "precio": 14000
         }
       ]
     },
     {
       "id": "725e175c-06d9-4028-91a8-4cdf41760371",
       "nombre": "Pastas",
+      "created_at": "2025-12-03T23:08:03.884516+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 10,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "5cc6a579-6257-4169-b07c-fd521c6e6dbc",
           "nombre": "Tallarines",
-          "precio": 9500,
+          "created_at": "2025-12-14T02:47:21.844018+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "1308cd93-6fe4-47e5-aef0-4ed06f3d818f",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T02:47:21.844018+00:00",
+          "precio": 9500
         },
         {
-          "id": "86901afd-3f42-4840-8085-4a9c9f445936",
           "nombre": "Ñoquis de Papa",
-          "precio": 9500,
+          "created_at": "2025-12-14T02:47:31.762949+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "5c6be821-d183-4488-a429-0cd7207650bd",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T02:47:31.762949+00:00",
+          "precio": 9500
         },
         {
-          "id": "08e6ee91-fa5c-40cd-9447-e328e2fcb088",
           "nombre": "Ravioles de Verdura",
-          "precio": 10000,
+          "created_at": "2025-12-14T02:47:48.485208+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "8f227334-9535-4542-b2a1-2eee8ea1e4a3",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T02:47:48.485208+00:00",
+          "precio": 10000,
+          "tempNombre": "Ravioles de Verdura",
+          "tempDescripcion": "",
+          "tempPrecioSimple": 10000,
+          "tempPreciosVariantes": {},
+          "editando": false
         },
         {
-          "id": "af1ed3b8-0545-42c9-9d5e-e4d80a82c770",
           "nombre": "Ravioles de Ricota",
-          "precio": 10000,
+          "created_at": "2025-12-14T02:49:59.391988+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "2aca13e5-151c-45ae-bc49-47bae559634b",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T02:49:59.391988+00:00",
+          "precio": 10000
         },
         {
-          "id": "0e96fe41-7299-4e68-b5f4-31e8b1e1f58a",
           "nombre": "Con Salsa de Tomates al Natural",
-          "precio": 2500,
+          "created_at": "2025-12-14T02:50:13.610013+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "2617a8e8-d791-4aab-b2d7-fd9b5aa955dc",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T02:50:13.610013+00:00",
+          "precio": 2500
         },
         {
-          "id": "e31e80dd-4f55-420c-b363-722e7c18e4dd",
           "nombre": "Con Salsa de Albahaca y Nuez",
-          "precio": 2600,
+          "created_at": "2025-12-14T02:50:27.070222+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "e2dbc479-f250-49d7-aa13-b9e199307b0b",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T02:50:27.070222+00:00",
+          "precio": 2600
         },
         {
-          "id": "0f7ed8e1-aa3c-4a33-b7f0-bb6498dccd7b",
           "nombre": "A la Manteca",
-          "precio": 2300,
+          "created_at": "2025-12-14T02:50:53.212498+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "a62b06d1-9b1d-4387-9f5b-3f3efb3c66be",
           "descripcion": "",
-          "orden": 6
+          "orden": 6,
+          "updated_at": "2025-12-14T02:50:53.212498+00:00",
+          "precio": 2300
         },
         {
-          "id": "8f68f231-ddb7-48b5-97a8-6c5513b1a509",
           "nombre": "Con Salsa Boloñesa",
-          "precio": 3500,
+          "created_at": "2025-12-14T02:51:17.987519+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "b01861a4-4db7-4ee1-98f4-bbb67c72fc9e",
           "descripcion": "",
-          "orden": 7
+          "orden": 7,
+          "updated_at": "2025-12-14T02:51:17.987519+00:00",
+          "precio": 3500
         },
         {
-          "id": "f9ef468e-23ef-4318-bcc5-c291fcf808ae",
           "nombre": "Penne a la Putanesca",
-          "precio": 12000,
+          "created_at": "2025-12-14T02:55:30.194683+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "158dd81b-9e9d-4206-aa26-399522ffb20a",
           "descripcion": "Mostacholes con Salsa Picante, Anchoas y Olivas Negras",
-          "orden": 8
+          "orden": 8,
+          "updated_at": "2025-12-14T02:55:30.194683+00:00",
+          "precio": 12000
         },
         {
-          "id": "97c4f965-b32f-4378-becc-1f983261cc24",
           "nombre": "Sorrentinos de Ricota, Jamón y Nuez",
-          "precio": 13500,
+          "created_at": "2025-12-14T02:55:57.860726+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "c81166da-c306-47ba-bb30-d952db55fd36",
           "descripcion": "Con Salsa de Tomates al Natural",
-          "orden": 9
+          "orden": 9,
+          "updated_at": "2025-12-14T02:55:57.860726+00:00",
+          "precio": 13500
         },
         {
-          "id": "f68f2508-2afe-4ee9-8e4a-af2571601f9f",
           "nombre": "Crema",
-          "precio": 3000,
+          "created_at": "2025-12-14T02:56:05.401732+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "fc4f59ee-c4a8-430a-b134-a354037132a9",
           "descripcion": "",
-          "orden": 10
+          "orden": 10,
+          "updated_at": "2025-12-14T02:56:05.401732+00:00",
+          "precio": 3000
         },
         {
-          "id": "ff4034b3-42e7-4704-9167-9cf80df14fc0",
           "nombre": "Crema al Roquefort",
-          "precio": 3500,
+          "created_at": "2025-12-14T02:56:14.044432+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "1ca5b702-be69-430d-8957-2941dbdc8758",
           "descripcion": "",
-          "orden": 11
+          "orden": 11,
+          "updated_at": "2025-12-14T02:56:14.044432+00:00",
+          "precio": 3500
         },
         {
-          "id": "6ce93240-9764-4d07-b98c-e8730ce502b9",
           "nombre": "Crema de Quesos",
-          "precio": 3500,
+          "created_at": "2025-12-14T02:56:21.583946+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "6152469d-6e25-4d00-a2d7-9f0301f6d55e",
           "descripcion": "",
-          "orden": 12
+          "orden": 12,
+          "updated_at": "2025-12-14T02:56:21.583946+00:00",
+          "precio": 3500
         },
         {
-          "id": "694199f7-00d8-4fb5-b0a6-dd9d47cf36e9",
           "nombre": "Rosa",
-          "precio": 3000,
+          "created_at": "2025-12-14T02:56:28.706248+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "bd88ab74-0e04-4a3a-a9d0-88885c4fbf50",
           "descripcion": "",
-          "orden": 13
+          "orden": 13,
+          "updated_at": "2025-12-14T02:56:28.706248+00:00",
+          "precio": 3000
         },
         {
-          "id": "5ddc214f-9447-4881-88be-1e41da551ce5",
           "nombre": "Scroffa",
-          "precio": 3500,
+          "created_at": "2025-12-14T02:56:49.108559+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "edf28935-2bb2-411d-8c9b-f2997fc21fd8",
           "descripcion": "Salsa de Tomates, Crema y Provolone",
-          "orden": 14
+          "orden": 14,
+          "updated_at": "2025-12-14T02:56:49.108559+00:00",
+          "precio": 3500
         },
         {
-          "id": "22a0c355-68e3-4f11-bfc0-d225add15c63",
           "nombre": "Popeye",
-          "precio": 3500,
-          "descripcion": "Crema, Espinaca yProvolone",
-          "orden": 15
+          "created_at": "2025-12-14T02:57:07.825939+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "81aecfec-b1b4-44b2-8bb7-a0610b57f57c",
+          "descripcion": "Crema, Espinaca y Provolone",
+          "orden": 15,
+          "updated_at": "2025-12-14T02:57:07.825939+00:00",
+          "precio": 3500
         },
         {
-          "id": "305f1442-5380-456b-8656-e9b522154bb1",
           "nombre": "Parissienne",
-          "precio": 4000,
+          "created_at": "2025-12-14T02:57:32.930586+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "c6f82017-10c2-4598-bdf5-cf6cebc3fde5",
           "descripcion": "Salsa Blanca, Champiñones, Pollo y Jamón",
-          "orden": 16
+          "orden": 16,
+          "updated_at": "2025-12-14T02:57:32.930586+00:00",
+          "precio": 4000
         },
         {
-          "id": "2a78f22a-821b-4b42-86d7-bbdd5e8ac4e5",
           "nombre": "Lola",
-          "precio": 5000,
+          "created_at": "2025-12-14T02:57:58.385238+00:00",
+          "fk_categoria": "725e175c-06d9-4028-91a8-4cdf41760371",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "c05ad864-49f2-4e32-8cb3-50699d32aa41",
           "descripcion": "Salsa de Tomates, Crema, Champiñones, Jamón y Nueces",
-          "orden": 17
+          "orden": 17,
+          "updated_at": "2025-12-14T02:57:58.385238+00:00",
+          "precio": 5000
         }
       ]
     },
     {
       "id": "7677d28c-4c1c-4fb6-89d7-1ab6fe350593",
       "nombre": "Lomos",
+      "created_at": "2025-12-03T23:15:05.272524+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 11,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "bada4491-15a4-4ef9-bc9e-4a56afeca1a3",
           "nombre": "Simple en Sándwich",
-          "precio": 14000,
+          "created_at": "2025-12-14T02:58:41.750944+00:00",
+          "fk_categoria": "7677d28c-4c1c-4fb6-89d7-1ab6fe350593",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "329cd411-9157-4424-81f7-53b9a6179c30",
           "descripcion": "Lechuga, Tomate, Huevo, Mozzarella, Jamón y Aceitunas",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T02:58:41.750944+00:00",
+          "precio": 14000
         },
         {
-          "id": "0956481c-6f91-4059-b6e7-0920d88e4abc",
           "nombre": "Canadiense",
-          "precio": 17000,
+          "created_at": "2025-12-14T02:59:07.866565+00:00",
+          "fk_categoria": "7677d28c-4c1c-4fb6-89d7-1ab6fe350593",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "6a454298-0f58-4800-b07c-6817aa8895ec",
           "descripcion": "Idem Simple + Palmitos, Morrón, Panceta y Huevo Frito",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T02:59:07.866565+00:00",
+          "precio": 17000
         },
         {
-          "id": "ca542cc0-9902-4900-9b54-d6e619a3542d",
           "nombre": "Lola al Plato",
-          "precio": 19000,
+          "created_at": "2025-12-14T02:59:55.605024+00:00",
+          "fk_categoria": "7677d28c-4c1c-4fb6-89d7-1ab6fe350593",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "6d7074b0-21d4-447e-b414-20ad58474802",
           "descripcion": "Ensalada Mixta, Ensalada Rusa, Papas Fritas, Jamón, Mozzarella, Huevo Frito, Panceta, Palmitos, Morrones y Aceitunas",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T02:59:55.605024+00:00",
+          "precio": 19000
         }
       ]
     },
     {
       "id": "96cb804d-7831-42a1-8309-cd3cf3375fcd",
       "nombre": "Hamburguesas",
+      "created_at": "2025-12-03T23:17:25.973118+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 12,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "c198c75a-c488-4c1b-b3b6-437c70cc88fb",
           "nombre": "Sola",
-          "precio": 8000,
+          "created_at": "2025-12-14T03:00:13.470521+00:00",
+          "fk_categoria": "96cb804d-7831-42a1-8309-cd3cf3375fcd",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "ba5cd781-9acf-452d-99a7-96f333a23d7d",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T03:00:13.470521+00:00",
+          "precio": 8000
         },
         {
-          "id": "a612b6f5-9a0d-4435-a09a-0198eec43488",
           "nombre": "Simple",
-          "precio": 10000,
+          "created_at": "2025-12-14T03:00:32.963648+00:00",
+          "fk_categoria": "96cb804d-7831-42a1-8309-cd3cf3375fcd",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "33c96afd-e1db-415d-b85c-d41637a746c7",
           "descripcion": "Lechuga, Tomate, Mozzarella, Jamón y Huevo",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T03:00:32.963648+00:00",
+          "precio": 10000
         },
         {
-          "id": "077f4e38-74a5-4b21-880c-46447fba6b26",
           "nombre": "Completa",
-          "precio": 13000,
+          "created_at": "2025-12-14T03:01:00.811411+00:00",
+          "fk_categoria": "96cb804d-7831-42a1-8309-cd3cf3375fcd",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "a2333538-975d-4cf3-a836-9960fd1cb1c0",
           "descripcion": "Idem Simple + Palmitos, Morrones, Panceta, Huevo Frito y Cebolla",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T03:01:00.811411+00:00",
+          "precio": 13000
         }
       ]
     },
     {
       "id": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
       "nombre": "Postres",
+      "created_at": "2025-12-03T23:18:53.69808+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 13,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "821959df-11a5-478e-a393-71e078f0e600",
           "nombre": "Flan Casero",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:01:16.827871+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "85d5adee-28e7-4281-a5fe-4f1d7c56f794",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T03:01:16.827871+00:00",
+          "precio": 5000
         },
         {
-          "id": "bac047b2-8873-40f3-aa5e-305508882762",
           "nombre": "Ensalada de Frutas",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:01:25.93271+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "45228a76-f3c5-4383-9b2c-6bfdaa524b93",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T03:01:25.93271+00:00",
+          "precio": 5000
         },
         {
-          "id": "4af851f2-0898-426a-98fd-89703e552862",
           "nombre": "Frutillas con Azúcar y Jugo de Naranjas",
-          "precio": 6000,
+          "created_at": "2025-12-14T03:02:32.253341+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "7453a0e7-2a29-41e6-b171-98533693a7f0",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T03:02:32.253341+00:00",
+          "precio": 6000
         },
         {
-          "id": "38469dea-ee45-4f3d-bb3a-0dde483aad0f",
           "nombre": "Helados Varios Gustos",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:02:40.620516+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "d28483a0-2771-45ea-9e42-31980471a65f",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T03:02:40.620516+00:00",
+          "precio": 5000
         },
         {
-          "id": "0e95df77-29a5-422e-87eb-44d37f6fdd55",
           "nombre": "Almendrado",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:02:50.174406+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "53ca1a9f-7bb9-49fd-96f0-476761857a4a",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T03:02:50.174406+00:00",
+          "precio": 5000
         },
         {
-          "id": "753083c2-68e7-43bd-9c14-315102ac372b",
           "nombre": "Bombón Suizo",
-          "precio": 6000,
+          "created_at": "2025-12-14T03:03:06.818868+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "69456e52-2849-44a8-af16-f56a94dece55",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T03:03:06.818868+00:00",
+          "precio": 6000
         },
         {
-          "id": "913cdbda-0c90-4abf-afcb-6b926ee08f3c",
           "nombre": "Don Pedro",
-          "precio": 9000,
+          "created_at": "2025-12-14T03:03:15.458243+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "4cd7d01a-ceac-4461-8e7b-50f78282f7ea",
           "descripcion": "",
-          "orden": 6
+          "orden": 6,
+          "updated_at": "2025-12-14T03:03:15.458243+00:00",
+          "precio": 9000
         },
         {
-          "id": "e872fe5c-6510-4641-9857-e6763d359594",
           "nombre": "Copa Lola",
-          "precio": 12000,
+          "created_at": "2025-12-14T03:03:25.226803+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "73d21458-62cf-4258-84f7-fe51c00cafdf",
           "descripcion": "",
-          "orden": 7
+          "orden": 7,
+          "updated_at": "2025-12-14T03:03:25.226803+00:00",
+          "precio": 12000
         },
         {
-          "id": "0eb7ca67-31c7-4959-87d6-7d807ec530af",
           "nombre": "Recargos: Crema, Dulce de Leche o Chocolate",
-          "precio": 3000,
+          "created_at": "2025-12-14T03:03:48.457803+00:00",
+          "fk_categoria": "6275d4ad-e255-4a93-858b-8d0c3108bc36",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "55c78633-2a4c-49cc-90ff-c4a291d780d1",
           "descripcion": "",
-          "orden": 8
+          "orden": 8,
+          "updated_at": "2025-12-14T03:03:48.457803+00:00",
+          "precio": 3000
         }
       ]
     },
     {
       "id": "4215ef23-5150-4881-9eb1-d24a975769e8",
       "nombre": "Cafetería",
+      "created_at": "2025-12-03T23:21:11.448644+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 14,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "fb07a2e6-4e22-4d72-b491-435375bbc6bd",
           "nombre": "Té",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:05:39.124314+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "0105642f-3d56-4f63-a5d5-8e7249e858a5",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T03:05:39.124314+00:00",
+          "precio": 3500
         },
         {
-          "id": "88888d26-d20e-4f1f-9c4c-16a311a72ede",
           "nombre": "Té Digestivo",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:05:48.516054+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "48295ca6-330c-469c-801b-2f14a339555d",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T03:05:48.516054+00:00",
+          "precio": 3500
         },
         {
-          "id": "f0a0257b-fb48-4f72-a344-4a8973a7b099",
           "nombre": "Café, Lágrima o Cortado",
-          "precio": 3000,
+          "created_at": "2025-12-14T03:06:04.540343+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "fc368ba8-4f9c-4143-94c4-df94f8719d22",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T03:06:04.540343+00:00",
+          "precio": 3000
         },
         {
-          "id": "53c00a65-11aa-4eaf-91a1-0268a1115307",
           "nombre": "Americano",
-          "precio": 4000,
+          "created_at": "2025-12-14T03:06:14.023259+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "6c7bf50f-074b-418b-839d-37a1c6feed4a",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T03:06:14.023259+00:00",
+          "precio": 4000
         },
         {
-          "id": "0aaf014d-0eea-47d8-851a-39f72cdff475",
           "nombre": "Americano con Crema",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:08:00.765722+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "a6845d66-278e-41c6-936b-faa71041b091",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T03:08:00.765722+00:00",
+          "precio": 5000
         },
         {
-          "id": "8a7ca92e-7b4e-46ca-b2be-001ba857ac8f",
           "nombre": "Café con Leche",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:08:09.291557+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "acbb5b07-4d50-4f4f-9c99-481ae4305ab3",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T03:08:09.291557+00:00",
+          "precio": 5000
         },
         {
-          "id": "ebda4699-412b-41a8-a52d-5383f92ac892",
           "nombre": "Capuchino",
-          "precio": 5000,
+          "created_at": "2025-12-14T03:08:16.614017+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "9b304989-69ca-4e2d-836e-89fa73f5a9fb",
           "descripcion": "",
-          "orden": 6
+          "orden": 6,
+          "updated_at": "2025-12-14T03:08:16.614017+00:00",
+          "precio": 5000
         },
         {
-          "id": "3b342b8e-46ac-49ac-bfb5-4ca56df0653d",
           "nombre": "Submarino",
-          "precio": 6000,
+          "created_at": "2025-12-14T03:08:28.954972+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "307f3aae-584f-4bc4-839b-ff61903718ca",
           "descripcion": "",
-          "orden": 7
+          "orden": 7,
+          "updated_at": "2025-12-14T03:08:28.954972+00:00",
+          "precio": 6000
         },
         {
-          "id": "faf650c1-6647-45e4-a310-70600d6d89b4",
           "nombre": "Café Irlandés",
-          "precio": 7500,
+          "created_at": "2025-12-14T03:09:03.23648+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "21aeba9a-79f9-4cac-ba22-bd181a800915",
           "descripcion": "Café, Whisky, Crema y Canela",
-          "orden": 8
+          "orden": 8,
+          "updated_at": "2025-12-14T03:09:03.23648+00:00",
+          "precio": 7500
         },
         {
-          "id": "d909e46d-f8e2-4937-9e03-7b0006f64f15",
           "nombre": "Calipso",
-          "precio": 7500,
+          "created_at": "2025-12-14T03:09:27.528887+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "361eebec-9b60-410e-92e8-341df6fdcbab",
           "descripcion": "Café, Tía María, Crema y Canela",
-          "orden": 9
+          "orden": 9,
+          "updated_at": "2025-12-14T03:09:27.528887+00:00",
+          "precio": 7500
         },
         {
-          "id": "9601d263-f8d3-4f96-97f4-e8f2c9ff2978",
           "nombre": "Café Lolita",
-          "precio": 9000,
+          "created_at": "2025-12-14T03:10:49.217546+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "4929e7f9-53b0-4fce-834d-a49607c34cb6",
           "descripcion": "Café, Crema, Dulce de Leche, Tía María y Chocolate Rallado",
-          "orden": 10
+          "orden": 10,
+          "updated_at": "2025-12-14T03:10:49.217546+00:00",
+          "precio": 9000
         },
         {
-          "id": "230b968f-2a38-428f-a8e2-16f08c5e8735",
           "nombre": "Tostado de Jamón y Queso",
-          "precio": 8000,
+          "created_at": "2025-12-14T03:11:15.056664+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "2b0494e1-643a-4d67-8833-b859c861967f",
           "descripcion": "",
-          "orden": 11
+          "orden": 11,
+          "updated_at": "2025-12-14T03:11:15.056664+00:00",
+          "precio": 8000
         },
         {
-          "id": "1ec516be-49eb-4665-a127-9ae920ec04f3",
           "nombre": "Sándwich Primavera",
-          "precio": 9000,
+          "created_at": "2025-12-14T03:11:54.549227+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "2e2f560a-05e3-40d1-9e0e-8b7e31077b76",
           "descripcion": "Jamón, Queso, Lechuga, Tomate y Huevo",
-          "orden": 12
+          "orden": 12,
+          "updated_at": "2025-12-14T03:11:54.549227+00:00",
+          "precio": 9000
         },
         {
-          "id": "bbf6c6cc-d263-45b8-bd37-78cea4db6ffc",
           "nombre": "Sándwich Olímpico",
-          "precio": 10000,
+          "created_at": "2025-12-14T03:12:33.298489+00:00",
+          "fk_categoria": "4215ef23-5150-4881-9eb1-d24a975769e8",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "5ef1dc09-ddf7-4b24-9b63-733cdbb3c349",
           "descripcion": "Jamón, Queso, Lechuga, Tomate, Huevo, Palmitos, Morrón y Aceitunas",
-          "orden": 13
+          "orden": 13,
+          "updated_at": "2025-12-14T03:12:33.298489+00:00",
+          "precio": 10000
         }
       ]
     },
     {
       "id": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
       "nombre": "Bebidas Sin Alcohol",
+      "created_at": "2025-12-03T23:27:39.461379+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 15,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "619c453d-603f-4679-884d-d8b681bf7bd6",
           "nombre": "Gaseosas",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:12:57.808149+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "6ec15cf4-c7fb-4986-a7b7-0e175a3d1936",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T03:12:57.808149+00:00",
+          "precio": 3500
         },
         {
-          "id": "d16e9f9e-369f-4254-b007-996955d14600",
           "nombre": "Agua Mineral",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:13:06.583849+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "cea21913-0b1a-4da5-aab9-94f2018643ef",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T03:13:06.583849+00:00",
+          "precio": 3500
         },
         {
-          "id": "5b1370fb-6207-44a2-8e13-a75ebf9529c2",
           "nombre": "Agua Saborizada",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:13:14.401421+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "3e7e8867-9edf-4f40-863f-83206828c9fe",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T03:13:14.401421+00:00",
+          "precio": 3500
         },
         {
-          "id": "dbd5a8c2-ea06-4366-b92d-188c7c6c9aad",
           "nombre": "Limonada",
-          "precio": 9500,
+          "created_at": "2025-12-14T03:13:23.000388+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "fd6dc8bf-49df-4c0f-ae35-97c8c0d3ee4a",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T03:13:23.000388+00:00",
+          "precio": 9500
         },
         {
-          "id": "d6886358-8109-474b-baf9-6dd31f21a811",
           "nombre": "Exprimido de Naranjas",
-          "precio": 6000,
+          "created_at": "2025-12-14T03:13:35.689492+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "4691efab-ca64-40e4-8873-ee2d580f2ec7",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T03:13:35.689492+00:00",
+          "precio": 6000
         },
         {
-          "id": "b8afd3a0-caa1-4ba3-8ea3-4311f46fe9de",
           "nombre": "Licuados con Agua",
-          "precio": 6000,
+          "created_at": "2025-12-14T03:13:45.276962+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "9fec64a3-bcac-4cd0-87b7-804c773cb609",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T03:13:45.276962+00:00",
+          "precio": 6000
         },
         {
-          "id": "f6c36572-8ad1-4d4c-83e0-90a050054a20",
           "nombre": "Licuados con Leche",
-          "precio": 7000,
+          "created_at": "2025-12-14T03:13:54.559069+00:00",
+          "fk_categoria": "8be369fc-104c-4ba7-a3f4-4811c86802d5",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "d9f99ba4-d992-49fb-bb48-90f30fcee9fb",
           "descripcion": "",
-          "orden": 6
+          "orden": 6,
+          "updated_at": "2025-12-14T03:13:54.559069+00:00",
+          "precio": 7000
         }
       ]
     },
     {
       "id": "bb276480-5a10-487c-968f-cead4657dd15",
       "nombre": "Cervezas",
+      "created_at": "2025-12-03T23:29:37.18213+00:00",
+      "fk_restaurante": "58059f6a-8fd4-427a-9b74-fee86df96710",
+      "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
       "orden": 16,
+      "updated_at": "2025-12-04T06:18:07.684+00:00",
+      "variantes": null,
       "productos": [
         {
-          "id": "c6e64a4e-33a0-42a0-9106-36a51b100520",
           "nombre": "Brahma lata",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:14:10.532085+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "dba53167-15f7-47e8-94b4-b74a5f159382",
           "descripcion": "",
-          "orden": 0
+          "orden": 0,
+          "updated_at": "2025-12-14T03:14:10.532085+00:00",
+          "precio": 3500
         },
         {
-          "id": "cb1bca63-279b-460f-a26c-7bc661a35d18",
           "nombre": "Brahma litro",
-          "precio": 7000,
+          "created_at": "2025-12-14T03:14:19.667912+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "ea7693bc-527a-4f58-99ad-25643a8db6ed",
           "descripcion": "",
-          "orden": 1
+          "orden": 1,
+          "updated_at": "2025-12-14T03:14:19.667912+00:00",
+          "precio": 7000
         },
         {
-          "id": "3d6e89df-f5ce-43bf-8c51-5113b3d777d4",
           "nombre": "Stella Artois lata",
-          "precio": 3800,
+          "created_at": "2025-12-14T03:14:30.456293+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "c76e782f-a75a-4158-b742-2a07919a59ca",
           "descripcion": "",
-          "orden": 2
+          "orden": 2,
+          "updated_at": "2025-12-14T03:14:30.456293+00:00",
+          "precio": 3800
         },
         {
-          "id": "c151f074-ced8-4531-aeed-1a65b45d6b23",
           "nombre": "Stella Artois litro",
-          "precio": 8000,
+          "created_at": "2025-12-14T03:14:47.309371+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "2a6adcb0-26d1-4116-84fb-2299bf50a2b3",
           "descripcion": "",
-          "orden": 3
+          "orden": 3,
+          "updated_at": "2025-12-14T03:14:47.309371+00:00",
+          "precio": 8000
         },
         {
-          "id": "1fdcac7f-a04d-4a5b-847c-54d1a55c8c2b",
           "nombre": "Quilmes lata",
-          "precio": 3500,
+          "created_at": "2025-12-14T03:14:59.777054+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "ff518475-8180-4f1a-8f69-19d35ed0855f",
           "descripcion": "",
-          "orden": 4
+          "orden": 4,
+          "updated_at": "2025-12-14T03:14:59.777054+00:00",
+          "precio": 3500
         },
         {
-          "id": "a9d47ca5-5939-4686-9241-94e9b23daeea",
           "nombre": "Quilmes litro",
-          "precio": 7000,
+          "created_at": "2025-12-14T03:15:08.284247+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "49c66424-40e2-48e6-a3f7-6b6c7bc6cc4c",
           "descripcion": "",
-          "orden": 5
+          "orden": 5,
+          "updated_at": "2025-12-14T03:15:08.284247+00:00",
+          "precio": 7000
         },
         {
-          "id": "500091be-876f-413e-8473-6102a1ccd713",
           "nombre": "Stella Artois S/A lata",
-          "precio": 3800,
+          "created_at": "2025-12-14T03:15:20.548394+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "079c1a6e-cd20-4434-926b-d339dac2ba43",
           "descripcion": "",
-          "orden": 6
+          "orden": 6,
+          "updated_at": "2025-12-14T03:15:20.548394+00:00",
+          "precio": 3800
         },
         {
-          "id": "e4ffcae3-92e5-4849-a894-261246ab4fd6",
           "nombre": "Stella Artois Noir lata",
-          "precio": 3800,
+          "created_at": "2025-12-14T03:15:35.160309+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "f2c03b48-3ea5-42c8-b3f6-229a5f2be0a8",
           "descripcion": "",
-          "orden": 7
+          "orden": 7,
+          "updated_at": "2025-12-14T03:15:35.160309+00:00",
+          "precio": 3800
         },
         {
-          "id": "7bb54204-23be-420f-93de-a7ee21a14f72",
           "nombre": "Stella Artois Noir litro",
-          "precio": 8000,
+          "created_at": "2025-12-14T03:15:48.403873+00:00",
+          "fk_categoria": "bb276480-5a10-487c-968f-cead4657dd15",
+          "fk_usuario": "e8808819-2695-4b75-975d-aa1395f599ce",
+          "id": "87e5ec3e-694b-4568-a086-53872b955e9d",
           "descripcion": "",
-          "orden": 8
+          "orden": 8,
+          "updated_at": "2025-12-14T03:15:48.403873+00:00",
+          "precio": 8000
         }
       ]
     }
